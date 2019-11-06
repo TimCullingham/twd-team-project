@@ -1,0 +1,142 @@
+/* Resets */
+/* Box Sizing Reset */
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
+
+/* Responsive Images Reset */
+img {
+  max-width: 100%;
+  height: auto; }
+
+/*General Resets*/
+body {
+  margin: 0; }
+
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+  padding: 0;
+  font-family: 'PT Serif', serif; }
+
+p {
+  margin-top: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif; }
+
+/*main styles start*/
+.banner-image {
+  position: relative;
+  margin: 0; }
+
+.banner-text {
+  position: absolute;
+  left: 4.6em;
+  top: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: white;
+  font-size: 1.9em;
+  text-shadow: 2px 2px #1f1510; }
+
+.experience {
+  display: block;
+  padding: 0 30px; }
+
+.section-heading h2 {
+  font-size: 2rem;
+  letter-spacing: 1.25px;
+  font-family: 'Oleo Script', cursive;
+  margin-bottom: 0; }
+
+.section-heading h3 {
+  font-size: 1.3em; }
+
+.catering {
+  padding: 30px 0; }
+
+.dark-background {
+  padding: 30px;
+  background-color: #2b170c; }
+
+.catering-img-heading {
+  position: relative; }
+
+.catering-heading {
+  position: absolute;
+  left: 5.5em;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: white;
+  font-size: 1.3em;
+  text-shadow: 2px 2px #1f1510;
+  line-height: 50px;
+  background-color: rgba(31, 21, 16, 0.6);
+  padding: 0 10px; }
+
+.catering-text {
+  color: white;
+  margin-top: 20px; }
+
+.light-background {
+  padding: 30px;
+  background-color: #ddd1c5; }
+
+.events img {
+  width: 100%; }
+
+.events-img-heading {
+  position: relative; }
+
+.events-heading {
+  position: absolute;
+  left: 5.5em;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: white;
+  font-size: 1.3em;
+  text-shadow: 2px 2px #1f1510;
+  line-height: 50px;
+  background-color: rgba(31, 21, 16, 0.6);
+  padding: 0 10px; }
+
+.events-text {
+  margin-top: 20px; }
+
+.section-menu-gallary {
+  padding: 10px 30px; }
+
+.img-grid img {
+  width: 100%;
+  margin: 10px 0; }
+
+.menu-gallery {
+  display: block; }
+
+.yellow-background {
+  background-color: #f0b74d;
+  color: black;
+  line-height: 30px;
+  text-align: center;
+  padding: 55px 0;
+  margin: 10px 0; }
+
+.light-grey-background {
+  background-color: #bbb19f;
+  color: black;
+  line-height: 30px;
+  text-align: center;
+  padding: 55px 0;
+  margin: 10px 0; }
+
+.menu-txt {
+  text-align: center;
+  color: #2e1a0e;
+  font-size: 1.8rem; }
+
+/*# sourceMappingURL=styles.css.map */
