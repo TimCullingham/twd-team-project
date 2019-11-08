@@ -1,10 +1,20 @@
 @charset "utf-8";
 
+
+/* resets */
 @import "resets";
 @import "type";
-@import "body";
-/*main styles start*/
+@import "variables";
+
+
+/* nav */
+
+/* index section for header banner body and footer sections  */
 @import "banner";
+@import "body";
+
+/*pages*/
+@import "home";
 @import "experience";
 @import "catering";
 @import "events";
