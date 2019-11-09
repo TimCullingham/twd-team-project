@@ -24,7 +24,7 @@
 }
 .dark-background{
    padding: 30px;
-    background-color: rgb(43, 23, 12);
+    background-color: $dark-background;
 }
 .catering-img-heading{
     position: relative;
@@ -53,7 +53,7 @@
 
 .light-background{
     padding:30px;
-    background-color: rgb(221, 209, 197);
+    background-color: $light-background;
 }
 .events img{
     width:100%
@@ -93,7 +93,7 @@
     display:block;
 }
 .yellow-background{
-    background-color: rgb(240, 183, 77);
+    background-color: $yellow-background;
     color: black;
     line-height: 30px;
     text-align: center;
@@ -101,7 +101,7 @@
     margin:10px 0;
 }
 .light-grey-background{
-    background-color: rgb(187, 177, 159);
+    background-color: $light-grey-background;
     color: black;
     line-height: 30px;
     text-align: center;
