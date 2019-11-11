@@ -1,0 +1,18 @@
+/* Resets */
+/* Box Sizing Reset */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Responsive Images Reset */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*General Resets*/
+body{
+    margin: 0;
+}
