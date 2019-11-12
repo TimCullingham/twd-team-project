@@ -4,6 +4,9 @@
     display: block;
     padding:0 30px;
 }
+.section-heading h3{
+    display:none;
+} 
 .section-info p
 {
   
@@ -13,6 +16,9 @@
 }
 .section-heading h3{
     font-size: 1.3em;
+}
+.button-chef{
+    display: block;
 }
 
 
@@ -100,6 +106,7 @@
     padding:55px 0;
     margin:10px 0;
 }
+
 .light-grey-background{
     background-color: $light-grey-background;
     color: black;
@@ -112,4 +119,26 @@
     text-align: center;
     color: rgb(46, 26, 14);
     font-size: 1.8rem;
+}
+
+@media (min-width: $phoneLandscape)
+{    .experience{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding:10px 30px;
+    }
+    .section-heading h3{
+        display: block;
+    }
+
+    .experience img{
+        float: right;
+        width:100%;
+        margin-left: 20px;
+    }
+    .button-chef{
+        display: none;
+    }
+    
+
 }

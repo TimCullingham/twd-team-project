@@ -50,7 +50,11 @@
             <section class="banner-info">
                 
                 <div class="banner-image">
-                    <img src="images/banner/grill-panner-480.jpg" alt="grill panner">
+                    <img src="images/banner/grill-panner-480.jpg" alt="grill panner" 
+                    srcset="images/banner/grill-panner-1400.jpg 1440w,
+                            images/banner/grill-panner-1200.jpg 1200w, 
+                            images/banner/grill-panner-786.jpg 786w"
+                            sizes ="">
                     <h2 class="banner-text">
                         Welcome to our Table
                     </h2>
@@ -59,17 +63,24 @@
         <!--END OF BANNER-->
 
       <!--start section of our experience-->
-      <section class="experience">
+      <section >
+          <div class="experience">
           <div class="section-heading">
-        
+            <h3>Our Experience</h3>  
+            <p class="section-info"> Moksha brings a blend of Indian and Western flavours that excite the senses and satisify even the largest appetities.
+            </p>
+            <button>
+                    <span>Read More</span>
+                </button>
           </div>
-         <p class="section-info"> Moksha brings a blend of Indian and Western flavours that excite the senses and satisify even the largest appetities.
-         </p>
+         <div>
           <picture>
               <img src="images/chef.jpg"alt="chef image with smile" srcset="images/chef.jpg 200w">
           </picture>
+        </div>
+    </div>
           <br>
-          <button>
+          <button class="button-chef">
               <span>Read More</span>
           </button>
       </section> 

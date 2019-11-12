@@ -23,6 +23,9 @@ h1, h2, h3, h4, h5 {
 p {
   font-family: 'Nunito', sans-serif; }
 
+h3 {
+  font-size: 1.3em; }
+
 /* nav */
 /* index section for header banner body and footer sections  */
 .banner-image {
@@ -242,6 +245,9 @@ footer .logo {
   display: block;
   padding: 0 30px; }
 
+.section-heading h3 {
+  display: none; }
+
 .section-info p {
   padding-top: 30px;
   font-family: 'Oleo Script', cursive;
@@ -249,6 +255,9 @@ footer .logo {
 
 .section-heading h3 {
   font-size: 1.3em; }
+
+.button-chef {
+  display: block; }
 
 .catering {
   padding: 30px 0; }
@@ -335,5 +344,22 @@ footer .logo {
   text-align: center;
   color: #2e1a0e;
   font-size: 1.8rem; }
+
+@media (min-width: 492px) {
+  .experience {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px 30px; }
+
+  .section-heading h3 {
+    display: block; }
+
+  .experience img {
+    float: right;
+    width: 100%;
+    margin-left: 20px; }
+
+  .button-chef {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
