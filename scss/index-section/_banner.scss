@@ -7,16 +7,16 @@
 }
  .banner-text{
     position: absolute;
-    left:4.6em;
+    left:7em;
     top:50%;
     transform: translateX(-50%);
-    animation: type .5s 1s steps(13, end) forwards;
+    animation: type 1.8s 1s steps(13, end) forwards;
     -webkit-animation: type .5s 1s steps(13, end) forwards;
     overflow: hidden;
     text-transform: uppercase;
     white-space: nowrap;
     color:white;
-    font-size: 1.8em;
+    font-size: 1em;
     text-shadow: 2px 2px rgb(31, 21, 16);
 }
 
