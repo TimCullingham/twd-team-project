@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="shortcut icon" href="images/logog.png">
+    <link rel="shortcut icon" href="images/header/logo_v02.svg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,21 +15,31 @@
 <div class="wrapper">
     <!--start of header-->
     <header>
-    <div class="top-bar">
-
-        <a href="index.html"><img src="images/logo.png" alt="Moksha Logo"></a>
-
-        <button class="nav-button" id="nav-button"><span class="hamburger-icon">&#9776;</span><span class="sr-only">Menu</span></button>
-        <nav>
-            <ul>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="events.html">Events</a></li>
-            </ul>
-        </nav>
-
-    </div>
+        <div class="top-bar">
+        
+            <a href="index.html"><img class="logo" src="images/header/logo_v02.svg" alt="Mocksha Logo"></a>
+            <h3>
+                Moksha
+            </h3>
+            <button class="hamburger">
+                <span class="btn"></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+            </button>
+        </div>
+    <!--start of hamburger and overlay menu-->    
+        <div id="nav" class="overlay" style="width: 0%;">
+            <a class="closeBtn">✕</a>
+            <nav class="overlay-nav">
+                    <ul>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+            </nav>
+        </div>
+    <!--end of hamburger and overlay menu-->
     </header>
     <!--end of header-->
     
@@ -42,8 +52,8 @@
                 <div class="banner-image">
                     <img src="images/banner/grill-panner-480.jpg" alt="grill panner">
                     <h2 class="banner-text">
-                            Live for food
-                        </h2>
+                        Welcome to our Table
+                    </h2>
                 </div>
             </section>
         <!--END OF BANNER-->
@@ -51,15 +61,9 @@
       <!--start section of our experience-->
       <section class="experience">
           <div class="section-heading">
-          <h2>
-            Welcome
-          </h2>
-          <h3>
-              To Our Resturant
-          </h3>
-        </div>
-         <p class="section-info"> At SJC Culinary Service, Chef Clarence and his staff provide cuisine
-                drawn from culinary traditions around the globe.
+        
+          </div>
+         <p class="section-info"> Moksha brings a blend of Indian and Western flavours that excite the senses and satisify even the largest appetities.
          </p>
           <picture>
               <img src="images/chef.jpg"alt="chef image with smile" srcset="images/chef.jpg 200w">
@@ -83,8 +87,7 @@
                    </div>
         
                      <p class="catering-text">
-                           SJC Culinary Service operates as a quality food service provider to
-                           institutions and as a caterer.
+                           Let us come to you! Our new catering service brings the spices of India directly to you doorstep.
                      </p>
      
         
@@ -108,8 +111,7 @@
              </picture>
             </div>
              <p class="events-text">
-                    SJC Culinary Service operates as a quality food service provider to
-                    institutions and as a caterer.
+                    Our in house space provides a roomy yet intimate atmosphere perfect for birthdays, weddings or religious events.  Come celebrate tonight!
              </p>
          
             <button>
@@ -158,9 +160,34 @@
     <!--end of main-->
     <!--start of footer-->
     <footer>
-
+        <div class="container">
+            <div class="bottom-bar">
+                <div class="logo"><a href=""><img src="images/header/logo_v02.svg" alt="Moksha Logo"></a></div>
+                <img class="footer-image" src="images/footer/Indian-man.svg" alt="">
+                <div class="footer-menu">      
+                <ul>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            </div> 
+            <div class="contact-info">
+                <ul>
+                    <li>Moksha Indian Cuisine</li>
+                    <li>12345 Frederick Street</li>
+                    <li>V5H 1S9</li>
+                    <li>Vancouver, BC</li>
+                    <li>604 910 9144</li>
+                    <li>moksha@moksha.com</li>
+                </ul>
+            </div>
+            <div class="copyright"><p>&copy; moksha.com<p></div>
+        </div>
     </footer>
     <!--end of footer-->
 </div>
+<script src="scripts/script.js"></script>  
 </body>
 </html>
