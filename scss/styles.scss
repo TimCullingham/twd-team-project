@@ -2,21 +2,21 @@
 
 
 /* resets */
-@import "resets";
-@import "type";
-@import "variables";
+@import "defaults/resets";
+@import "defaults/type";
+@import "defaults/variables";
 
 
 /* nav */
 
 /* index section for header banner body and footer sections  */
-@import "banner";
-@import "header";
-@import "body";
-@import "footer";
+@import "index-section/banner";
+@import "index-section/header";
+@import "index-section/body";
+@import "index-section/footer";
 /*pages */
-@import "home";
-@import "experience";
-@import "catering";
-@import "events";
-@import "menu-gallery";
+@import "pages/home";
+@import "pages/experience";
+@import "pages/catering";
+@import "pages/events";
+@import "pages/menu-gallery";
