@@ -54,25 +54,20 @@ p {
   .banner-text {
     font-size: 2.5em; } }
 header {
-  border-right: 1px dashed #2b170c;
-  border-top: 1px dashed #2b170c;
-  border-left: 1px dashed #2b170c;
-  background-color: #f0b74d; }
+  background-color: #110a08; }
 
 .top-bar h3 {
-  font-size: 2.1rem;
-  text-align: center;
+  margin: 0 auto;
+  font-size: 1.2em;
   font-family: 'Oleo Script', cursive;
-  color: #2b170c;
-  padding-top: 32px;
-  height: 100%; }
+  color: white; }
 
 .top-bar {
   text-align: center;
   height: 100%; }
 
 .logo {
-  width: 60px;
+  width: 50px;
   margin: 0 8px; }
 
 .btn {
@@ -249,9 +244,8 @@ footer .logo {
   display: block;
   padding: 0 30px; }
 
-.section-heading h2 {
-  font-size: 2rem;
-  letter-spacing: 1.25px;
+.section-info p {
+  font-size: 0.5em;
   font-family: 'Oleo Script', cursive;
   margin-bottom: 0; }
 

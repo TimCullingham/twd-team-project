@@ -1,18 +1,15 @@
 // Header
 header {
-    border-right: 1px dashed $dark-background;
-    border-top: 1px dashed $dark-background;
-    border-left: 1px dashed $dark-background;
-    background-color: $yellow-background;
+    
+    background-color:rgb(17, 10, 8);
 }
 
 .top-bar h3 {
-    font-size: 2.1rem;
-    text-align: center;
+    margin: 0 auto;
+    font-size: 1.2em;
+    
     font-family: 'Oleo Script', cursive;
-    color: $dark-background;
-    padding-top: 32px;
-    height: 100%;
+    color: white;
 }
 
 .top-bar {
@@ -21,7 +18,7 @@ header {
 }
 
 .logo {
-    width: 60px;
+    width: 50px;
     margin: 0 8px;
 }
 
