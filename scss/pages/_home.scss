@@ -17,6 +17,9 @@
 .section-heading h3{
     font-size: 1.3em;
 }
+.par-but{
+    display: none;
+}
 .button-chef{
     display: block;
 }
@@ -130,15 +133,21 @@
     .section-heading h3{
         display: block;
     }
+    
 
     .experience img{
         float: right;
         width:100%;
         margin-left: 20px;
     }
+    .par-but{
+        display: block;
+    }
     .button-chef{
         display: none;
     }
+
+    
     
 
 }
