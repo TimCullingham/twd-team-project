@@ -1,87 +1,339 @@
-/*
-Error: Undefined variable: "$paragraphy".
-        on line 9 of scss/pages/_home.scss
-        from line 18 of scss/styles.scss
+/* resets */
+/* Resets */
+/* Box Sizing Reset */
+*,
+*:before,
+*:after {
+  box-sizing: border-box; }
 
-4: /* resets *\/
-5: @import "defaults/resets";
-6: @import "defaults/type";
-7: @import "defaults/variables";
-8: 
-9: 
-10: /* nav *\/
-11: 
-12: /* index section for header banner body and footer sections  *\/
-13: @import "index-section/banner";
-14: @import "index-section/header";
+/* Responsive Images Reset */
+img {
+  max-width: 100%;
+  height: auto; }
 
-Backtrace:
-scss/pages/_home.scss:9
-scss/styles.scss:18
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `map'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$paragraphy\".\A         on line 9 of scss/pages/_home.scss\A         from line 18 of scss/styles.scss\A \A 4: /* resets */\A 5: @import \"defaults/resets\";\A 6: @import \"defaults/type\";\A 7: @import \"defaults/variables\";\A 8: \A 9: \A 10: /* nav */\A 11: \A 12: /* index section for header banner body and footer sections  */\A 13: @import \"index-section/banner\";\A 14: @import \"index-section/header\";"; }
+/*General Resets*/
+body {
+  margin: 0; }
+
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+  padding: 0;
+  font-family: 'PT Serif', serif; }
+
+p {
+  font-family: 'Nunito', sans-serif; }
+
+/* nav */
+/* index section for header banner body and footer sections  */
+.banner-image {
+  position: relative;
+  margin: 0; }
+
+.banner-text {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: type 3s steps(37);
+  overflow: hidden;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: white;
+  font-size: 1.3em;
+  text-shadow: 2px 2px #1f1510;
+  width: 100%; }
+
+@keyframes type {
+  0% {
+    width: 0; }
+  100% {
+    width: 100%; } }
+@media (min-width: 414px) {
+  .banner-text {
+    font-size: 1.8em; } }
+header {
+  background-color: #110a08; }
+
+.top-bar h3 {
+  margin: 0 auto;
+  font-size: 1.2em;
+  font-family: 'Oleo Script', cursive;
+  color: white; }
+
+.top-bar {
+  text-align: center;
+  height: 100%; }
+
+.logo {
+  width: 50px;
+  margin: 0 8px; }
+
+.btn {
+  display: block;
+  width: 37px;
+  height: 8px;
+  background-color: #2b170c;
+  margin: 6px 0;
+  border: 1px solid #f0b74d;
+  border-radius: 28%; }
+
+button {
+  display: inline-block;
+  border: none;
+  padding: .5rem .4rem;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none; }
+
+button:hover,
+button:focus {
+  background: #2b170c; }
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px; }
+
+button:active {
+  transform: scale(0.99); }
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap; }
+
+.hamburger {
+  border: none;
+  cursor: pointer;
+  background-color: #f0b74d;
+  margin: 5px; }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+nav ul li a {
+  color: #bbb19f;
+  text-decoration: none; }
+
+header .overlay {
+  display: block;
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  opacity: 0.99;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  background-color: #2b170c;
+  overflow-x: hidden;
+  transition: 0.5s; }
+
+header .overlay-nav {
+  display: block;
+  position: relative;
+  top: 30%;
+  transform: translateY(-30%);
+  width: 100vw;
+  text-align: center;
+  margin-top: 30px; }
+
+.overlay li a {
+  font-family: 'Oleo Script', cursive;
+  font-size: 2.4em; }
+
+.overlay li a:hover,
+.overlay li a:active {
+  color: #f0b74d; }
+
+.overlay ul {
+  margin: 10px; }
+
+.overlay li {
+  margin: 18px; }
+
+.closeBtn {
+  text-align: right;
+  display: block;
+  margin: 20px;
+  padding: 5px;
+  font-size: 2.4em;
+  color: #f0b74d;
+  animation: roll 0.5s ease-out 0 1 normal both; }
+
+@keyframes roll {
+  0% {
+    left: 0; }
+  10% {
+    left: 10px; } }
+footer {
+  background-color: #2b170c;
+  border-right: 1px dashed #f0b74d;
+  border-left: 1px dashed #f0b74d;
+  border-bottom: 1px dashed #f0b74d; }
+
+.container {
+  padding: 8px; }
+
+footer ul {
+  list-style: none; }
+
+footer a {
+  color: #f0b74d;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif; }
+
+footer a:hover,
+footer a:active {
+  background-color: #f0b74d;
+  color: #2b170c; }
+
+.footer-menu a {
+  padding-right: 5px; }
+
+.footer-menu li {
+  padding-top: 5px; }
+
+.footer-menu ul:first-child {
+  padding-top: 0px; }
+
+.footer-menu ul {
+  margin-right: 5px;
+  padding-right: 5px;
+  text-align: center; }
+
+.contact-info {
+  color: #f0b74d;
+  font-family: 'Nunito', sans-serif;
+  border: 1px solid #f0b74d;
+  text-align: center;
+  opacity: .4; }
+
+.bottom-bar {
+  display: flex;
+  justify-content: space-between; }
+
+footer ul {
+  padding: 0; }
+
+.copyright {
+  padding: 5px;
+  opacity: .4;
+  color: #f0b74d; }
+
+footer .logo {
+  margin-left: 11px;
+  margin-top: 27px; }
+
+.footer-image {
+  width: 100px; }
+
+/*pages */
+.experience {
+  display: block;
+  padding: 0 30px; }
+
+.section-info p {
+  padding-top: 30px;
+  font-family: 'Oleo Script', cursive;
+  margin-bottom: 0; }
+
+.section-heading h3 {
+  font-size: 1.3em; }
+
+.catering {
+  padding: 30px 0; }
+
+.dark-background {
+  padding: 30px;
+  background-color: #2b170c; }
+
+.catering-img-heading {
+  position: relative; }
+
+.catering-heading {
+  position: absolute;
+  left: 5.5em;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: white;
+  font-size: 1.3em;
+  text-shadow: 2px 2px #1f1510;
+  line-height: 50px;
+  background-color: rgba(31, 21, 16, 0.6);
+  padding: 0 10px; }
+
+.catering-text {
+  color: white;
+  margin-top: 20px; }
+
+.light-background {
+  padding: 30px;
+  background-color: #ddd1c5; }
+
+.events img {
+  width: 100%; }
+
+.events-img-heading {
+  position: relative; }
+
+.events-heading {
+  position: absolute;
+  left: 5.5em;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: white;
+  font-size: 1.3em;
+  text-shadow: 2px 2px #1f1510;
+  line-height: 50px;
+  background-color: rgba(31, 21, 16, 0.6);
+  padding: 0 10px; }
+
+.events-text {
+  margin-top: 20px; }
+
+.section-menu-gallary {
+  padding: 10px 30px; }
+
+.img-grid img {
+  width: 100%;
+  margin: 10px 0; }
+
+.menu-gallery {
+  display: block; }
+
+.yellow-background {
+  background-color: #f0b74d;
+  color: black;
+  line-height: 30px;
+  text-align: center;
+  padding: 55px 0;
+  margin: 10px 0; }
+
+.light-grey-background {
+  background-color: #bbb19f;
+  color: black;
+  line-height: 30px;
+  text-align: center;
+  padding: 55px 0;
+  margin: 10px 0; }
+
+.menu-txt {
+  text-align: center;
+  color: #2e1a0e;
+  font-size: 1.8rem; }
+
+/*# sourceMappingURL=styles.css.map */
