@@ -355,6 +355,9 @@ footer .logo {
     grid-template-columns: auto auto;
     padding: 10px 30px; }
 
+  .section-heading {
+    display: block; }
+
   .section-heading h3 {
     display: block; }
 
@@ -367,6 +370,25 @@ footer .logo {
     display: block; }
 
   .button-chef {
-    display: none; } }
+    display: none; }
+
+  /* catering section*/
+  .dark-background {
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid-column-gap: 30px; }
+
+  .dark-background h3 {
+    font-size: 2em; }
+
+  .carter-buton {
+    float: right; }
+
+  /* event section*/
+  .light-background {
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid-column-gap: 30px;
+    float: right; } }
 
 /*# sourceMappingURL=styles.css.map */
