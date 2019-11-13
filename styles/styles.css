@@ -389,6 +389,19 @@ footer .logo {
     display: grid;
     grid-template-columns: 400px auto;
     grid-column-gap: 30px;
-    float: right; } }
+    float: right; }
+
+  .events-img-heading {
+    float: right; }
+
+  /* menu gallery*/
+  .menu-gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px; }
+
+  .img-grid {
+    margin: 0;
+    object-fit: fill; } }
 
 /*# sourceMappingURL=styles.css.map */
