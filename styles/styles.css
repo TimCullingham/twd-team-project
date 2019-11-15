@@ -33,6 +33,9 @@ h3 {
   position: relative;
   margin: 0; }
 
+.banner-image img {
+  width: 100%; }
+
 .banner-text {
   position: absolute;
   left: 20px;
@@ -55,6 +58,9 @@ h3 {
 @media (min-width: 414px) {
   .banner-text {
     font-size: 1.8em; } }
+@media (min-width: 616px) {
+  .banner-text {
+    font-size: 2.5em; } }
 header {
   background-color: #110a08; }
 
