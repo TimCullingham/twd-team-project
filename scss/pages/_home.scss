@@ -31,6 +31,7 @@
 
 .catering{
     padding: 30px 0;
+    background-color: $dark-background;
    
 }
 .dark-background{
@@ -64,13 +65,16 @@
 }
 
 // events section 03
-
+.events{
+    background-color: $light-background;
+}
 .light-background{
     padding:30px;
     background-color: $light-background;
 }
 .events img{
-    width:100%
+    width:100%;
+    border: 1px solid $dark-background;
 }
 .events-img-heading{
     position: relative;
@@ -195,7 +199,9 @@
     .menu-gallery{
         display: grid;
         grid-template-columns: auto auto auto;
+       
         grid-gap: 30px;
+        align-self: stretch;
     }
     .img-grid{
         margin: 0;
@@ -210,8 +216,19 @@
          padding: 35% 0;
     }
 
-    @media (min-width:$tabletPortrait)
+    @media (min-width:$tabletLandscape)
+
     {
+        .experience , .dark-background, .light-background{
+             
+            max-width: 850px;
+            margin: 0 auto; 
+           
+        }
+     .catering, .events{
+           padding:0;
+            width:100%;
+        }
         
     }
 

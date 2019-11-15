@@ -10,7 +10,7 @@
 }
  .banner-text{
     position: absolute;
-    left:20px;
+    left:40px;
     top:50%;
     transform: translateY(-50%);
     animation: type 3s steps(37);
@@ -19,7 +19,7 @@
     white-space: nowrap;
     color:white;
     font-size: 1.3em;
-    text-shadow: 2px 2px rgb(31, 21, 16);
+    text-shadow:  0 0 10px rgb(207, 119, 5), 0 0 5px rgb(231, 24, 9);/*2px 2px rgb(31, 21, 16);*/
     width: 100%;
 }
 

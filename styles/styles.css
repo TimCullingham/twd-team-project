@@ -38,7 +38,7 @@ h3 {
 
 .banner-text {
   position: absolute;
-  left: 20px;
+  left: 40px;
   top: 50%;
   transform: translateY(-50%);
   animation: type 3s steps(37);
@@ -47,7 +47,8 @@ h3 {
   white-space: nowrap;
   color: white;
   font-size: 1.3em;
-  text-shadow: 2px 2px #1f1510;
+  text-shadow: 0 0 10px #cf7705, 0 0 5px #e71809;
+  /*2px 2px rgb(31, 21, 16);*/
   width: 100%; }
 
 @keyframes type {
@@ -271,7 +272,8 @@ footer .logo {
   display: block; }
 
 .catering {
-  padding: 30px 0; }
+  padding: 30px 0;
+  background-color: #2b170c; }
 
 .dark-background {
   padding: 30px;
@@ -300,12 +302,16 @@ footer .logo {
 .carter-buton {
   text-align: center; }
 
+.events {
+  background-color: #ddd1c5; }
+
 .light-background {
   padding: 30px;
   background-color: #ddd1c5; }
 
 .events img {
-  width: 100%; }
+  width: 100%;
+  border: 1px solid #2b170c; }
 
 .events-img-heading {
   position: relative; }
@@ -413,7 +419,8 @@ footer .logo {
   .menu-gallery {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 30px; }
+    grid-gap: 30px;
+    align-self: stretch; }
 
   .img-grid {
     margin: 0; }
@@ -425,5 +432,13 @@ footer .logo {
 
   .yellow-background, .light-grey-background {
     padding: 35% 0; } }
+@media (min-width: 616px) and (min-width: 1024px) {
+  .experience, .dark-background, .light-background {
+    max-width: 850px;
+    margin: 0 auto; }
+
+  .catering, .events {
+    padding: 0;
+    width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */
