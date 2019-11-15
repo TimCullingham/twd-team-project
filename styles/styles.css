@@ -249,10 +249,11 @@ footer .logo {
 .section-heading h3 {
   display: none; }
 
-.section-info p {
-  padding-top: 30px;
-  font-family: 'Oleo Script', cursive;
-  margin-bottom: 0; }
+.section-info {
+  padding: 0 30px 30px 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  text-align: justify; }
 
 .section-heading h3 {
   font-size: 1.3em; }
@@ -288,8 +289,10 @@ footer .logo {
   padding: 0 10px; }
 
 .catering-text {
-  color: white;
-  margin-top: 20px; }
+  color: white; }
+
+.carter-buton {
+  text-align: center; }
 
 .light-background {
   padding: 30px;
@@ -315,8 +318,9 @@ footer .logo {
   background-color: rgba(31, 21, 16, 0.6);
   padding: 0 10px; }
 
-.events-text {
-  margin-top: 20px; }
+.events-text p, .catering-text p {
+  font-weight: 600;
+  text-align: justify; }
 
 .section-menu-gallary {
   padding: 10px 30px; }
@@ -329,37 +333,36 @@ footer .logo {
   display: block; }
 
 .yellow-background {
-  background-color: #f0b74d;
+  background-color: #f0b74d; }
+
+.yellow-background, .light-grey-background {
   color: black;
   line-height: 30px;
   text-align: center;
-  padding: 55px 0;
+  padding: 20% 0;
   margin: 10px 0; }
 
 .light-grey-background {
-  background-color: #bbb19f;
-  color: black;
-  line-height: 30px;
-  text-align: center;
-  padding: 55px 0;
-  margin: 10px 0; }
+  background-color: #bbb19f; }
 
 .menu-txt {
   text-align: center;
   color: #2e1a0e;
   font-size: 1.8rem; }
 
-@media (min-width: 492px) {
+@media (min-width: 616px) {
   .experience {
     display: grid;
     grid-template-columns: auto auto;
     padding: 10px 30px; }
 
   .section-heading {
-    display: block; }
+    display: block;
+    margin-top: 30px; }
 
   .section-heading h3 {
-    display: block; }
+    display: block;
+    font-size: 1.6em; }
 
   .experience img {
     float: right;
@@ -378,18 +381,24 @@ footer .logo {
     grid-template-columns: 400px auto;
     grid-column-gap: 30px; }
 
-  .dark-background h3 {
-    font-size: 2em; }
+  .dark-background h3, .light-background h3 {
+    font-size: 1.6em; }
 
-  .carter-buton {
+  .events-text, .catering-text {
+    margin: 0;
+    padding: 15% 0; }
+
+  .events-text p, .catering-text p {
+    margin: 0; }
+
+  .carter-buton, .events-text button {
     float: right; }
 
   /* event section*/
   .light-background {
     display: grid;
     grid-template-columns: 400px auto;
-    grid-column-gap: 30px;
-    float: right; }
+    grid-column-gap: 30px; }
 
   .events-img-heading {
     float: right; }
@@ -401,7 +410,14 @@ footer .logo {
     grid-gap: 30px; }
 
   .img-grid {
-    margin: 0;
-    object-fit: fill; } }
+    margin: 0; }
+
+  .img-grid img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto; }
+
+  .yellow-background, .light-grey-background {
+    padding: 35% 0; } }
 
 /*# sourceMappingURL=styles.css.map */

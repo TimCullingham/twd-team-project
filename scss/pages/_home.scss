@@ -7,12 +7,14 @@
 .section-heading h3{
     display:none;
 } 
-.section-info p
+.section-info 
 {
   
-   padding-top: 30px;
-    font-family: 'Oleo Script', cursive;
+   padding: 0 30px 30px 0;
+    
     margin-bottom: 0;
+    font-weight:$pFontweight;
+    text-align: justify;
 }
 .section-heading h3{
     font-size: 1.3em;
@@ -46,7 +48,7 @@
     transform: translate(-50% ,-50%);
     text-transform: uppercase;
     white-space: nowrap;
-    color:white;
+    color:$fontColor;
     font-size: 1.3em;
     text-shadow: 2px 2px rgb(31, 21, 16);
     line-height: 50px;
@@ -54,8 +56,11 @@
     padding: 0 10px;
 }
 .catering-text{
-    color:white;
-    margin-top:20px;
+    color:$fontColor;
+}
+.carter-buton{
+     
+    text-align: center;
 }
 
 // events section 03
@@ -77,18 +82,19 @@
     transform: translate(-50% ,-50%);
     text-transform: uppercase;
     white-space: nowrap;
-    color:white;
+    color:$fontColor;
     font-size: 1.3em;
     text-shadow: 2px 2px rgb(31, 21, 16);
     line-height: 50px;
     background-color: rgba(31, 21, 16, 0.6);
     padding: 0 10px;
 }
-.events-text{
-    margin-top:20px;
-    align-items: center;
-    justify-content: center;
+.events-text p, .catering-text p{
+    font-weight:$pFontweight;
+    text-align: justify;
+   
 }
+
 
 
 // home page menu grid section04
@@ -105,20 +111,19 @@
 }
 .yellow-background{
     background-color: $yellow-background;
+    
+}
+.yellow-background, .light-grey-background{
     color: black;
     line-height: 30px;
     text-align: center;
-    padding:55px 0;
+    padding:20% 0;
     margin:10px 0;
 }
 
 .light-grey-background{
     background-color: $light-grey-background;
-    color: black;
-    line-height: 30px;
-    text-align: center;
-    padding:55px 0;
-    margin:10px 0;
+    
 }
 .menu-txt{
     text-align: center;
@@ -133,17 +138,20 @@
     padding:10px 30px;
     }
     .section-heading{
-        display: block;      
-        
+        display: block;
+        margin-top:30px;
+               
     }
     .section-heading h3{
         display: block;
+        font-size: $fontsizeH3;
     }
     .experience img{
         float: right;
         width:100%;
         margin-left: 20px;
     }
+    
     .par-but{
         display: block;
     }
@@ -156,12 +164,22 @@
         grid-template-columns: 400px auto;
         grid-column-gap:30px;
     }
-    .dark-background h3{
-        font-size: 2em;
+    .dark-background h3, .light-background h3{
+        font-size: $fontsizeH3;
     }
-    .carter-buton{
+    .events-text , .catering-text {
+        margin: 0;
+        padding: 15% 0;
+    }
+    .events-text p , .catering-text p{
+        margin: 0;
+       
+    }
+
+    .carter-buton, .events-text button{
         float:right;
     }
+
 
     /* event section*/
 
@@ -169,7 +187,6 @@
         display: grid;
         grid-template-columns:  400px auto;
         grid-column-gap:30px;
-        float: right;
     }
     .events-img-heading{
         float: right;
@@ -182,7 +199,20 @@
     }
     .img-grid{
         margin: 0;
-        object-fit: fill;
+        
+    }
+    .img-grid img{
+        width: 100%;
+        height: 100%;
+        margin:0 auto;
+    }
+    .yellow-background, .light-grey-background{
+         padding: 35% 0;
+    }
+
+    @media (min-width:$tabletPortrait)
+    {
+        
     }
 
     

@@ -4,12 +4,15 @@ $light-background:rgb(221, 209, 197);
 $yellow-background:rgb(240, 183, 77);
 $light-grey-background:rgb(187, 177, 159);
 
-
+// font color
+$fontColor:white;
+$pFontweight: 600;
+$fontsizeH3: 1.6em;
 
 // Media query breakpoint
 $desktopMedium: 1250px;
 $tabletLandscape: 1024px;
 $tabletPortrait: 800px;
-$phoneLandscape: 492px;
+$phoneLandscape: 616px;
 $phonePortrait: 414px;
 
