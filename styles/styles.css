@@ -1,41 +1,60 @@
 /* resets */
 /* Resets */
 /* Box Sizing Reset */
+/* line 3, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/defaults/_resets.scss */
 *,
 *:before,
 *:after {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 /* Responsive Images Reset */
+/* line 10, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/defaults/_resets.scss */
 img {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 /*General Resets*/
+/* line 16, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/defaults/_resets.scss */
 body {
-  margin: 0; }
+  margin: 0;
+}
 
+/* line 2, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/defaults/_type.scss */
 h1, h2, h3, h4, h5 {
   margin-top: 0;
   padding: 0;
-  font-family: 'PT Serif', serif; }
+  font-family: 'PT Serif', serif;
+}
 
+/* line 7, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/defaults/_type.scss */
 p {
   font-family: 'Nunito', sans-serif;
-  font-size: 1.1em; }
+  font-size: 1.1em;
+}
 
+/* line 11, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/defaults/_type.scss */
 h3 {
-  font-size: 1.3em; }
+  font-size: 1.3em;
+}
 
 /* nav */
 /* index section for header banner body and footer sections  */
+/* line 3, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_banner.scss */
 .banner-image {
   position: relative;
-  margin: 0; }
+  margin: 0;
+}
 
+/* line 8, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_banner.scss */
 .banner-image img {
-  width: 100%; }
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
+}
 
+/* line 14, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_banner.scss */
 .banner-text {
   position: absolute;
   left: 40px;
@@ -49,36 +68,58 @@ h3 {
   font-size: 1.3em;
   text-shadow: 0 0 10px #cf7705, 0 0 5px #e71809;
   /*2px 2px rgb(31, 21, 16);*/
-  width: 100%; }
+  width: 100%;
+}
 
 @keyframes type {
   0% {
-    width: 0; }
+    width: 0;
+  }
   100% {
-    width: 100%; } }
-@media (min-width: 414px) {
-  .banner-text {
-    font-size: 1.8em; } }
-@media (min-width: 616px) {
-  .banner-text {
-    font-size: 2.5em; } }
-header {
-  background-color: #110a08; }
+    width: 100%;
+  }
+}
 
+@media (min-width: 414px) {
+  /* line 40, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_banner.scss */
+  .banner-text {
+    font-size: 1.8em;
+  }
+}
+
+@media (min-width: 553px) {
+  /* line 46, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_banner.scss */
+  .banner-text {
+    font-size: 2.5em;
+  }
+}
+
+/* line 2, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
+header {
+  background-color: #110a08;
+}
+
+/* line 7, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 .top-bar h3 {
   margin: 0 auto;
   font-size: 1.2em;
   font-family: 'Oleo Script', cursive;
-  color: white; }
+  color: white;
+}
 
+/* line 15, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 .top-bar {
   text-align: center;
-  height: 100%; }
+  height: 100%;
+}
 
+/* line 20, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 .logo {
   width: 50px;
-  margin: 0 8px; }
+  margin: 0 8px;
+}
 
+/* line 25, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 .btn {
   display: block;
   width: 37px;
@@ -86,8 +127,10 @@ header {
   background-color: #2b170c;
   margin: 6px 0;
   border: 1px solid #f0b74d;
-  border-radius: 28%; }
+  border-radius: 28%;
+}
 
+/* line 35, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 button {
   display: inline-block;
   border: none;
@@ -99,43 +142,59 @@ button {
   font-size: 1rem;
   cursor: pointer;
   text-align: center;
-  transition: background 250ms ease-in-out, transform 150ms ease;
+  transition: background 250ms ease-in-out,  transform 150ms ease;
   -webkit-appearance: none;
-  -moz-appearance: none; }
+  -moz-appearance: none;
+}
 
+/* line 52, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 button:hover,
 button:focus {
-  background: #2b170c; }
+  background: #2b170c;
+}
 
+/* line 57, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 button:focus {
   outline: 1px solid #fff;
-  outline-offset: -4px; }
+  outline-offset: -4px;
+}
 
+/* line 62, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 button:active {
-  transform: scale(0.99); }
+  transform: scale(0.99);
+}
 
+/* line 66, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 .top-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+}
 
+/* line 74, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 .hamburger {
   border: none;
   cursor: pointer;
   background-color: #f0b74d;
-  margin: 5px; }
+  margin: 5px;
+}
 
+/* line 81, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
+/* line 87, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 nav ul li a {
   color: #bbb19f;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
+/* line 93, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 header .overlay {
   display: block;
   height: 100vh;
@@ -147,8 +206,10 @@ header .overlay {
   top: 0;
   background-color: #2b170c;
   overflow-x: hidden;
-  transition: 0.5s; }
+  transition: 0.5s;
+}
 
+/* line 107, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 header .overlay-nav {
   display: block;
   position: relative;
@@ -156,22 +217,32 @@ header .overlay-nav {
   transform: translateY(-30%);
   width: 100vw;
   text-align: center;
-  margin-top: 30px; }
+  margin-top: 30px;
+}
 
+/* line 117, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 .overlay li a {
   font-family: 'Oleo Script', cursive;
-  font-size: 2.4em; }
+  font-size: 2.4em;
+}
 
+/* line 122, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 .overlay li a:hover,
 .overlay li a:active {
-  color: #f0b74d; }
+  color: #f0b74d;
+}
 
+/* line 127, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 .overlay ul {
-  margin: 10px; }
+  margin: 10px;
+}
 
+/* line 131, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 .overlay li {
-  margin: 18px; }
+  margin: 18px;
+}
 
+/* line 135, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_header.scss */
 .closeBtn {
   text-align: right;
   display: block;
@@ -179,109 +250,163 @@ header .overlay-nav {
   padding: 5px;
   font-size: 2.4em;
   color: #f0b74d;
-  animation: roll 0.5s ease-out 0 1 normal both; }
+  animation: roll 0.5s ease-out 0 1 normal both;
+}
 
 @keyframes roll {
   0% {
-    left: 0; }
+    left: 0;
+  }
   10% {
-    left: 10px; } }
+    left: 10px;
+  }
+}
+
+/* line 1, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_footer.scss */
 footer {
   background-color: #2b170c;
   border-right: 1px dashed #f0b74d;
   border-left: 1px dashed #f0b74d;
-  border-bottom: 1px dashed #f0b74d; }
+  border-bottom: 1px dashed #f0b74d;
+}
 
+/* line 8, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_footer.scss */
 .container {
-  padding: 8px; }
+  padding: 8px;
+}
 
+/* line 12, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_footer.scss */
 footer ul {
-  list-style: none; }
+  list-style: none;
+}
 
+/* line 16, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_footer.scss */
 footer a {
   color: #f0b74d;
   text-decoration: none;
-  font-family: 'Nunito', sans-serif; }
+  font-family: 'Nunito', sans-serif;
+}
 
+/* line 22, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_footer.scss */
 footer a:hover,
 footer a:active {
   background-color: #f0b74d;
-  color: #2b170c; }
+  color: #2b170c;
+}
 
+/* line 29, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_footer.scss */
 .footer-menu a {
-  padding-right: 5px; }
+  padding-right: 5px;
+}
 
+/* line 33, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_footer.scss */
 .footer-menu li {
-  padding-top: 5px; }
+  padding-top: 5px;
+}
 
+/* line 37, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_footer.scss */
 .footer-menu ul:first-child {
-  padding-top: 0px; }
+  padding-top: 0px;
+}
 
+/* line 41, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_footer.scss */
 .footer-menu ul {
   margin-right: 5px;
   padding-right: 5px;
-  text-align: center; }
+  text-align: center;
+}
 
+/* line 47, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_footer.scss */
 .contact-info {
   color: #f0b74d;
   font-family: 'Nunito', sans-serif;
   border: 1px solid #f0b74d;
   text-align: center;
-  opacity: .4; }
+  opacity: .4;
+}
 
+/* line 55, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_footer.scss */
 .bottom-bar {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
+/* line 60, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_footer.scss */
 footer ul {
-  padding: 0; }
+  padding: 0;
+}
 
+/* line 64, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_footer.scss */
 .copyright {
   padding: 5px;
   opacity: .4;
-  color: #f0b74d; }
+  color: #f0b74d;
+}
 
+/* line 70, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_footer.scss */
 footer .logo {
   margin-left: 11px;
-  margin-top: 27px; }
+  margin-top: 27px;
+}
 
+/* line 75, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/index-section/_footer.scss */
 .footer-image {
-  width: 100px; }
+  width: 100px;
+}
 
 /*pages */
+/* line 2, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .experience {
   display: block;
-  padding: 0 30px; }
+  padding: 0 30px;
+}
 
+/* line 7, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .section-heading h3 {
-  display: none; }
+  display: none;
+}
 
+/* line 10, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .section-info {
   padding: 0 30px 30px 0;
   margin-bottom: 0;
   font-weight: 600;
-  text-align: justify; }
+  text-align: justify;
+}
 
+/* line 19, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .section-heading h3 {
-  font-size: 1.3em; }
+  font-size: 1.3em;
+}
 
+/* line 22, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .par-but {
-  display: none; }
+  display: none;
+}
 
+/* line 25, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .button-chef {
-  display: block; }
+  display: block;
+}
 
+/* line 32, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .catering {
   padding: 30px 0;
-  background-color: #2b170c; }
+  background-color: #2b170c;
+}
 
+/* line 37, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .dark-background {
   padding: 30px;
-  background-color: #2b170c; }
+  background-color: #2b170c;
+}
 
+/* line 41, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .catering-img-heading {
-  position: relative; }
+  position: relative;
+}
 
+/* line 45, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .catering-heading {
   position: absolute;
   left: 5.5em;
@@ -294,28 +419,42 @@ footer .logo {
   text-shadow: 2px 2px #1f1510;
   line-height: 50px;
   background-color: rgba(31, 21, 16, 0.6);
-  padding: 0 10px; }
+  padding: 0 10px;
+}
 
+/* line 59, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .catering-text {
-  color: white; }
+  color: white;
+}
 
+/* line 62, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .carter-buton {
-  text-align: center; }
+  text-align: center;
+}
 
+/* line 68, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .events {
-  background-color: #ddd1c5; }
+  background-color: #ddd1c5;
+}
 
+/* line 71, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .light-background {
   padding: 30px;
-  background-color: #ddd1c5; }
+  background-color: #ddd1c5;
+}
 
+/* line 75, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .events img {
   width: 100%;
-  border: 1px solid #2b170c; }
+  border: 1px solid #2b170c;
+}
 
+/* line 79, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .events-img-heading {
-  position: relative; }
+  position: relative;
+}
 
+/* line 82, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .events-heading {
   position: absolute;
   left: 5.5em;
@@ -328,117 +467,228 @@ footer .logo {
   text-shadow: 2px 2px #1f1510;
   line-height: 50px;
   background-color: rgba(31, 21, 16, 0.6);
-  padding: 0 10px; }
+  padding: 0 10px;
+}
 
+/* line 96, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .events-text p, .catering-text p {
   font-weight: 600;
-  text-align: justify; }
+  text-align: justify;
+}
 
+/* line 106, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .section-menu-gallary {
-  padding: 10px 30px; }
+  padding: 10px 30px;
+}
 
+/* line 109, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .img-grid img {
   width: 100%;
-  margin: 10px 0; }
+  margin: 10px 0;
+}
 
+/* line 113, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .menu-gallery {
-  display: block; }
+  display: block;
+}
 
+/* line 116, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .yellow-background {
-  background-color: #f0b74d; }
+  background-color: #f0b74d;
+}
 
+/* line 120, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .yellow-background, .light-grey-background {
   color: black;
   line-height: 30px;
   text-align: center;
   padding: 20% 0;
-  margin: 10px 0; }
+  margin: 10px 0;
+}
 
+/* line 128, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .light-grey-background {
-  background-color: #bbb19f; }
+  background-color: #bbb19f;
+}
 
+/* line 132, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
 .menu-txt {
   text-align: center;
   color: #2e1a0e;
-  font-size: 1.8rem; }
+  font-size: 1.8rem;
+}
 
-@media (min-width: 616px) {
+@media (min-width: 553px) {
+  /* line 139, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .experience {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 10px 30px; }
-
+    padding: 10px 30px;
+  }
+  /* line 144, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .section-heading {
     display: block;
-    margin-top: 30px; }
-
+    margin-top: 30px;
+  }
+  /* line 149, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .section-heading h3 {
     display: block;
-    font-size: 1.6em; }
-
+    font-size: 1.6em;
+  }
+  /* line 153, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .experience img {
     float: right;
     width: 100%;
-    margin-left: 20px; }
-
+    margin-left: 20px;
+  }
+  /* line 159, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .par-but {
-    display: block; }
-
+    display: block;
+  }
+  /* line 162, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .button-chef {
-    display: none; }
-
+    display: none;
+  }
   /* catering section*/
+  /* line 166, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .dark-background {
     display: grid;
     grid-template-columns: 400px auto;
-    grid-column-gap: 30px; }
-
+    grid-column-gap: 30px;
+  }
+  /* line 171, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .dark-background h3, .light-background h3 {
-    font-size: 1.6em; }
-
+    font-size: 1.6em;
+  }
+  /* line 174, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .events-text, .catering-text {
     margin: 0;
-    padding: 15% 0; }
-
+    padding: 15% 0;
+  }
+  /* line 178, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .events-text p, .catering-text p {
-    margin: 0; }
-
+    margin: 0;
+  }
+  /* line 183, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .carter-buton, .events-text button {
-    float: right; }
-
+    float: right;
+  }
   /* event section*/
+  /* line 190, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .light-background {
     display: grid;
     grid-template-columns: 400px auto;
-    grid-column-gap: 30px; }
-
+    grid-column-gap: 30px;
+  }
+  /* line 195, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .events-img-heading {
-    float: right; }
-
+    float: right;
+  }
   /* menu gallery*/
+  /* line 199, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .menu-gallery {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 30px;
-    align-self: stretch; }
-
+  }
+  /* line 205, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .img-grid {
-    margin: 0; }
-
+    margin: 0;
+  }
+  /* line 209, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .img-grid img {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto; }
-
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  /* line 214, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .yellow-background, .light-grey-background {
-    padding: 35% 0; } }
-@media (min-width: 616px) and (min-width: 1024px) {
+    padding: 35% 0;
+  }
+}
+
+@media (min-width: 553px) and (min-width: 1024px) {
+  /* line 221, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .experience, .dark-background, .light-background {
     max-width: 850px;
-    margin: 0 auto; }
-
+    margin: 0 auto;
+  }
+  /* line 227, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_home.scss */
   .catering, .events {
     padding: 0;
-    width: 100%; } }
+    width: 100%;
+  }
+}
+
+/* line 1, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_contact-us.scss */
+.image-text {
+  text-align: center;
+  margin: 0;
+  padding: 5px 5px 5px 8px;
+  background-color: #f0b74d;
+  color: white;
+  border: 1px ridge #2b170c;
+  position: absolute;
+  z-index: 1;
+  right: 16px;
+  font-size: 1.5em;
+  margin-top: 25px;
+}
+
+/* line 15, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_contact-us.scss */
+.image-banner img {
+  position: relative;
+  z-index: 0;
+}
+
+/* line 20, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_contact-us.scss */
+.form {
+  width: 100%;
+  border: 5px ridge #f0b74d;
+  background-color: #ddd1c5;
+}
+
+/* line 26, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_contact-us.scss */
+.form-item {
+  display: block;
+  margin: auto;
+  border: 2px solid #ddd1c5;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* line 33, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_contact-us.scss */
+.form-item input {
+  display: block;
+}
+
+/* line 37, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_contact-us.scss */
+.form p {
+  text-align: center;
+  margin: 3px;
+  color: black;
+  font-family: 'Oleo Script', cursive;
+}
+
+/* line 43, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_contact-us.scss */
+.contact-text {
+  margin: 10px;
+}
+
+/* line 47, D:/TIM/BCIT Technical Web Developer/twd-team-project/scss/pages/_contact-us.scss */
+.submit {
+  display: inline-block;
+  border: none;
+  padding: .5rem .4rem;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  width: 100px;
+  margin: auto;
+}
 
 /*# sourceMappingURL=styles.css.map */
