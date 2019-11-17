@@ -1,0 +1,73 @@
+.menu{
+      display: block;
+}
+
+.menu-pic{
+      display: block;
+      position: relative;
+      box-sizing: border-box;
+      height: 100%;
+      width: 100%;
+      padding: 0;
+}
+.meal-pic{
+            width: 100%;
+            height: 100%;
+       }
+      .meal-pic img{
+       object-fit: cover;
+       width:100%;
+       height: 100%;
+       overflow: hidden;
+            }
+      
+      .meal-time {
+            position: absolute;
+            z-index:1;
+            height: 100%;
+            width:100%;
+            left:50%;
+            top:50%;
+            transform: translate(-50%,-50%); 
+            overflow: hidden;
+            background-color:$menu-time-background-color;
+            color:$fontColor;
+            text-align: center;
+            margin:  auto;
+            
+      }
+      .details{
+            padding: 20px;   
+           
+      }
+      .name span, p{
+            color:$mealColorName;
+      }
+     .name p{
+            border-bottom: 1px dotted $light-grey-background;
+            padding:10px 0;
+      }
+
+//       @media (min-width:$phoneLandscape){
+  
+//       .menu{
+//             display: grid;
+//             grid-template-columns: auto auto;
+           
+//             grid-gap:30px;
+           
+        
+//             &.menu-detail{
+//                   display: block;
+//                   overflow: hidden;
+//                   &.meal-pic img{
+//                         width: 100%;
+//                         object-fit: cover;
+//                   }
+//             }
+//       }
+
+
+
+//  }
+      
