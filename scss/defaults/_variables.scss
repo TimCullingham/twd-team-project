@@ -3,11 +3,13 @@ $dark-background:rgb(43, 23, 12);
 $light-background:rgb(221, 209, 197);
 $yellow-background:rgb(240, 183, 77);
 $light-grey-background:rgb(187, 177, 159);
+$menu-time-background-color:rgba( black, 0.5);
 
 // font color
 $fontColor:white;
 $pFontweight: 600;
 $fontsizeH3: 1.6em;
+$mealColorName: grey;
 
 // Media query breakpoint
 $desktopMedium: 1250px;
@@ -16,3 +18,16 @@ $tabletPortrait: 800px;
 $phoneLandscape: 553px;
 $phonePortrait: 414px;
 
+//background color
+
+
+// Functions
+// - Differ from mixins in that they 
+// just return plain values instead
+// of property value pairs
+@function em($px, $bc: 16){
+    @return #{$px / $bc}em;
+}
+
+// Link Selector
+$link: '&:hover, &:focus, &:active';
