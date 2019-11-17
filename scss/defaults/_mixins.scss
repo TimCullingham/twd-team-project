@@ -1,0 +1,47 @@
+// Mixins
+// - Mixins are specialty
+// functions specifically 
+// designed to output
+// CSS property/value pairs
+
+// Margin Centre Mixin...
+// - Centers an element using
+// margin: auto...
+@mixin mc($t: 0, $b: 0, $setToBlock: false){
+    @if($t == 0 and $b == 0){
+        margin: 0 auto;
+    }@else {
+        margin: $t auto $b;
+    }
+    @if($setToBlock == true){
+        display: block;
+    }
+}
+
+// Flex Row Mixin
+@mixin flex-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+// Flatten
+// - Removes margins and padding
+// and if it is a list...then 
+// removes the list style
+@mixin flatten($is-list: false){
+    margin: 0;
+    padding: 0;
+    @if($is-list == true){
+        list-style: none;
+    }@else {
+        line-height: 1;
+    }
+}
+
+// Media Query Mixin
+@mixin mq($w) {
+    @media (min-width: $w){
+        @content;
+    }
+}
