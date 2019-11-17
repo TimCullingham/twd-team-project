@@ -5,17 +5,23 @@ $yellow-background:rgb(240, 183, 77);
 $light-grey-background:rgb(187, 177, 159);
 $menu-time-background-color:rgba( black, 0.5);
 
+// banner text shadow
+$shadow-banner:0 0 10px rgb(207, 119, 5), 0 0 5px rgb(231, 24, 9);
+
 // font color
 $fontColor:white;
+$mealColorName: grey;
+
+$text-heading-image:1.3em;
 $pFontweight: 600;
 $fontsizeH3: 1.6em;
-$mealColorName: grey;
+
 
 // Media query breakpoint
 $desktopMedium: 1250px;
 $tabletLandscape: 1024px;
 $tabletPortrait: 800px;
-$phoneLandscape: 553px;
+$phoneLandscape: 666px;
 $phonePortrait: 414px;
 
 //background color

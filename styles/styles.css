@@ -31,7 +31,8 @@ h3 {
 /* index section for header banner body and footer sections  */
 .banner-image {
   position: relative;
-  margin: 0; }
+  margin: 0;
+  margin-bottom: 2em; }
 
 .banner-image img {
   max-width: 100%;
@@ -61,7 +62,7 @@ h3 {
 @media (min-width: 414px) {
   .banner-text {
     font-size: 1.8em; } }
-@media (min-width: 553px) {
+@media (min-width: 666px) {
   .banner-text {
     font-size: 2.5em; } }
 header {
@@ -253,7 +254,8 @@ footer .logo {
 /*pages */
 .experience {
   display: block;
-  padding: 0 30px; }
+  padding: 0 30px;
+  position: relative; }
 
 .section-heading h3 {
   display: none; }
@@ -269,9 +271,6 @@ footer .logo {
 
 .par-but {
   display: none; }
-
-.button-chef {
-  display: block; }
 
 .catering {
   padding: 30px 0;
@@ -336,7 +335,7 @@ footer .logo {
   font-weight: 600;
   text-align: justify; }
 
-@media (min-width: 553px) {
+@media (min-width: 666px) {
   .experience {
     display: grid;
     grid-template-columns: auto auto;
@@ -388,7 +387,7 @@ footer .logo {
 
   .events-img-heading {
     float: right; } }
-@media (min-width: 553px) and (min-width: 1024px) {
+@media (min-width: 666px) and (min-width: 1024px) {
   .experience, .dark-background, .light-background {
     max-width: 850px;
     margin: 0 auto; }
@@ -401,12 +400,19 @@ footer .logo {
   line-height: 50px;
   text-shadow: 0 0 10px #cf7705, 0 0 5px #e71809; }
 
+.menu-txt {
+  text-align: center;
+  padding-top: 1em;
+  text-shadow: 0 0 10px #cf7705, 0 0 5px #e71809;
+  margin: 0;
+  font-size: 2em; }
+
 .cards-container {
   max-width: 1020px;
   margin: 0 auto;
   padding: 30px;
   display: grid;
-  grid-column: auto auto auto;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 30px; }
 
 .card {
@@ -477,12 +483,19 @@ footer .logo {
   line-height: 50px;
   text-shadow: 0 0 10px #cf7705, 0 0 5px #e71809; }
 
+.menu-txt {
+  text-align: center;
+  padding-top: 1em;
+  text-shadow: 0 0 10px #cf7705, 0 0 5px #e71809;
+  margin: 0;
+  font-size: 2em; }
+
 .cards-container {
   max-width: 1020px;
   margin: 0 auto;
   padding: 30px;
   display: grid;
-  grid-column: auto auto auto;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 30px; }
 
 .card {

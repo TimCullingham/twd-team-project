@@ -3,6 +3,7 @@
 {
     display: block;
     padding:0 30px;
+    position: relative;
 }
 .section-heading h3{
     display:none;
@@ -22,9 +23,8 @@
 .par-but{
     display: none;
 }
-.button-chef{
-    display: block;
-}
+
+
 
 
 // catering section 02
@@ -50,7 +50,7 @@
     text-transform: uppercase;
     white-space: nowrap;
     color:$fontColor;
-    font-size: 1.3em;
+    font-size: $text-heading-image;
     text-shadow: 2px 2px rgb(31, 21, 16);
     line-height: 50px;
     background-color: rgba(31, 21, 16, 0.6);
@@ -87,7 +87,7 @@
     text-transform: uppercase;
     white-space: nowrap;
     color:$fontColor;
-    font-size: 1.3em;
+    font-size: $text-heading-image;
     text-shadow: 2px 2px rgb(31, 21, 16);
     line-height: 50px;
     background-color: rgba(31, 21, 16, 0.6);

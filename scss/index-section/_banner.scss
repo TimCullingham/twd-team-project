@@ -3,6 +3,8 @@
 .banner-image{
     position: relative;
     margin:0;
+    margin-bottom: 2em;
+
     
 }
 .banner-image img{
@@ -22,7 +24,7 @@
     white-space: nowrap;
     color:white;
     font-size: 1.3em;
-    text-shadow:  0 0 10px rgb(207, 119, 5), 0 0 5px rgb(231, 24, 9);/*2px 2px rgb(31, 21, 16);*/
+    text-shadow:  $shadow-banner;/*2px 2px rgb(31, 21, 16);*/
     width: 100%;
 }
 

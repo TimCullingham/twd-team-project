@@ -1,0 +1,45 @@
+.menu-txt h2{
+    text-align: center;
+    line-height: 50px;
+    text-shadow:  $shadow-banner;
+}
+ 
+.menu-txt{
+    text-align: center;
+    padding-top:1em ;
+    text-shadow:$shadow-banner;
+    margin:0;
+    font-size: 2em;
+}
+.cards-container {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 30px;
+    display: grid;
+    // grid-column: auto auto auto;
+     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.card {
+    position: relative;
+}
+
+
+.card:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 0;
+    padding-bottom: calc(100% / (3 / 2) );
+}
+
+.card-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+ 
