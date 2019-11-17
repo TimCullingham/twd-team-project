@@ -5,6 +5,7 @@
 @import "defaults/resets";
 @import "defaults/type";
 @import "defaults/variables";
+@import "defaults/mixins";
 
 
 /* nav */
@@ -16,7 +17,9 @@
 @import "index-section/footer";
 /*pages */
 @import "pages/home";
+@import "pages/menu-grid";
 @import "pages/experience";
 @import "pages/catering";
 @import "pages/events";
-@import "pages/menu-gallery";
+@import "pages/menu";
+@import "pages/menu-grid";
