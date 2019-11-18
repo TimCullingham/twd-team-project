@@ -64,15 +64,15 @@
     width:100%;
     /* width: 400px;
     height: 300px; */
-    background-color: black;
+    background-color: $menu-time-background-color;
      margin: 15px;
      box-sizing: border-box;
      overflow: hidden;
-     /* box-shadow: 0 5px 10px rgba(0,0,0 .8);
-     */
-     -webkit-box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.6);
--moz-box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.6);
-box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.6);
+     box-shadow: $shadow-menu-grid-index;
+    
+//      -webkit-box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.6);
+// -moz-box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.6);
+// box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.6);
 }
  .container .box:before{
     content: "";
