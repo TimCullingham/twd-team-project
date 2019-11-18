@@ -3,14 +3,15 @@
     margin: 0;
     padding: 5px 5px 5px 8px;
     background-color: $yellow-background;
-    color: white;
+    color: black;
     border: 1px ridge $dark-background;
     position: absolute;
     z-index: 1;
-    right: 16px;
     font-size: 1.5em;
-    margin-top: 25px;
+    width: 100%;
+    margin-top: 20px;
 }
+
 
 .image-banner img{
     position: relative;
@@ -46,7 +47,7 @@
 
 .submit {
     display: inline-block;
-    border: none;
+    border: 3px solid $yellow-background;
     padding: .5rem .4rem;
     margin: 0;
     text-decoration: none;
@@ -58,5 +59,26 @@
     display: block;
     width: 100px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
+.form {
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.contact-text {
+    text-align: center;
+}
+
+textarea {
+    width: 250px;
+}
+
+@media (min-width: $phoneLandscape)
+{
+    textarea {
+        width: 400px;
+    }
+}

@@ -36,9 +36,9 @@ header {
     display: block;
     width: 37px;
     height: 8px;
-    background-color: $dark-background;
+    background-color: $yellow-background;
     margin: 6px 0;
-    border: 1px solid $yellow-background;
+    border: 1px solid $dark-background;
     border-radius: 28%;
 }
 
@@ -84,7 +84,7 @@ button:active {
 .hamburger {
     border: none;
     cursor: pointer;
-    background-color: $yellow-background;
+    background-color: black;
     margin: 5px;
 }
 
@@ -208,7 +208,8 @@ header .overlay-nav {
 }
 
 @media (min-width: $desktopMedium){
-    .top-bar :second-child {
-        flex: 3 1 0;
+
+    .top-menu a{
+        font-size: 1.8em;
     }
 }
