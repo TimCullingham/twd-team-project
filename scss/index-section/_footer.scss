@@ -5,7 +5,7 @@ footer {
     border-bottom: 1px dashed $yellow-background;
 }
 
-.container {
+.bottom-container {
     padding: 8px;
 }
 
@@ -74,4 +74,11 @@ footer .logo {
 
 .footer-image {
     width: 100px;
+}
+
+@media (min-width: 800px){
+    .contact-info {
+        width: 800px;
+        margin: auto;
+    }
 }
