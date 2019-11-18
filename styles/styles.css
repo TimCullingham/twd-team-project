@@ -318,7 +318,25 @@ footer .logo {
   font-size: 1.3em; }
 
 .par-but {
-  display: none; }
+  display: none;
+  border-radius: 25%;
+  margin: auto;
+  font-family: "Nunito", sans-serif;
+  background-color: #ddd1c5;
+  transition: all .2s ease-in-out; }
+
+.par-but a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #2b170c;
+  font-weight: 600; }
+
+.par-but:hover {
+  background-color: #2b170c;
+  transform: scale(1.1); }
+
+.par-but:hover a {
+  color: white; }
 
 .catering {
   padding: 30px 0;
@@ -348,8 +366,29 @@ footer .logo {
 .catering-text {
   color: white; }
 
-.carter-buton {
-  text-align: center; }
+.cater-button-container {
+  width: 100%;
+  display: flex; }
+
+.cater-button {
+  border-radius: 25%;
+  margin: auto;
+  font-family: "Nunito", sans-serif;
+  background-color: #f0b74d;
+  transition: all .2s ease-in-out; }
+
+.cater-button a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #2b170c;
+  font-weight: 600; }
+
+.cater-button:hover {
+  background-color: #ddd1c5;
+  transform: scale(1.1); }
+
+.cater-button:hover a {
+  color: #2b170c; }
 
 .events {
   background-color: #ddd1c5; }
@@ -382,6 +421,33 @@ footer .logo {
 .events-text p, .catering-text p {
   font-weight: 600;
   text-align: justify; }
+
+.events-text p {
+  padding: 0 30px 30px 0; }
+
+.events-button-container {
+  width: 100%;
+  display: flex; }
+
+.events-button {
+  border-radius: 25%;
+  margin: auto;
+  font-family: "Nunito", sans-serif;
+  background-color: #2b170c;
+  transition: all .2s ease-in-out; }
+
+.events-button a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #f0b74d;
+  font-weight: 600; }
+
+.events-button:hover {
+  background-color: #f0b74d;
+  transform: scale(1.1); }
+
+.events-button:hover a {
+  color: #2b170c; }
 
 @media (min-width: 666px) {
   .experience {
@@ -575,6 +641,23 @@ object-fit: cover; */ }
     opacity: 1;
     visibility: visible;
 } */
+.location {
+  margin-right: 0; }
+
+.number {
+  margin-left: 45%; }
+
+.location-box {
+  display: flex;
+  justify-content: space-around; }
+
+.courses-box {
+  display: flex;
+  justify-content: space-around; }
+
+.event-image {
+  width: 100%; }
+
 .menu {
   display: block; }
 

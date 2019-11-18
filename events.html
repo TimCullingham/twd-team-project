@@ -1,51 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="shortcut icon" href="images/header/logo_v02.png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css">
-    <title>Moksha Indian Cuisine</title>
-    
+        <link rel="shortcut icon" href="images/header/logo_v02.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="styles/styles.css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Nunito|PT+Serif:400,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700&display=swap" rel="stylesheet">
+        <title>Moksha Indian Cuisine</title>
 </head>
 <body>
 <div class="wrapper">
-     <!--start of header-->
-     <header>
-        <div class="top-bar">
+    <!--start of header-->
+    <header>
+    <div class="top-bar">
+    
+        <a href="index.html"><img class="logo" src="images/header/logo_v02.svg" alt="Mocksha Logo"></a>
+        <h3>
+            <a href="index.html">Moksha</a> 
+        </h3>
+        <button class="hamburger">
+            <span class="btn"></span>
+            <span class="btn"></span>
+            <span class="btn"></span>
+        </button>
+        <ul>
+            <li class="top-menu"><a href="about-us.html">About Us</a></li>
+            <li class="top-menu"><a href="menu.html">Menu</a></li>
+            <li class="top-menu"><a href="events.html">Events</a></li>
+            <li class="top-menu"><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+<!--start of hamburger and overlay menu-->    
+    <div id="nav" class="overlay" style="width: 0%;">
+        <a class="closeBtn">✕</a>
+        <nav class="overlay-nav">
+                <ul>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+        </nav>
+    </div>
+<!--end of hamburger and overlay menu-->
+</header>
+<!--end of <header-->
+    <main>
+<div class="image-banner">
+            <h1 class="image-text">Events</h1>
+            <img class="event-image" src="images/events.jpg" alt="Women standing near table">
+            
+</div>
+        <div class="contact-text">
+            <p>Thinking about booking an event?  Moksha caters to events of all sizes, from intimate anniversaries to lavishly packed birthdays.  Anything you have in mind, we got you covered!</p>
+            <p>If you wish to book an event, please fill in the forms below and we will contact you for additional details and confirmation:</p>
+        </div>
         
-            <a href="index.html"><img class="logo" src="images/header/logo_v02.svg" alt="Mocksha Logo"></a>
-            <h3>
-               <a href="index.html">Moksha</a> 
-            </h3>
-            <button class="hamburger">
-                <span class="btn"></span>
-                <span class="btn"></span>
-                <span class="btn"></span>
-            </button>
-            <ul>
-                <li class="top-menu"><a href="about-us.html">About Us</a></li>
-                <li class="top-menu"><a href="menu.html">Menu</a></li>
-                <li class="top-menu"><a href="events.html">Events</a></li>
-                <li class="top-menu"><a href="contact.html">Contact</a></li>
-            </ul>
+        <div class="form">
+            <p>Date of event:</p> <br> <input class="form-item"type="date" name="bday"> <br>
+            
+            <form action="">
+                <p>Please select the location you are interested in booking at:</p>
+<div class="location-box">
+                      <div><input type="radio" class="location" name="location" value="Location"> Commercial</div>
+                      <div><input type="radio" class="location" name="location" value="Location"> Cambie</div>
+                      <div><input type="radio" class="location" name="location" value="Location"> Downtown</div><br><br>
+</div>  
+    
+            <p>Please slect the amount of guest expected to attend:</p>
+                <select class="number">
+                    <option value="1-9">1-9</option>
+                    <option value="10-19">10-19</option>
+                    <option value="20-29">20-29</option>
+                    <option value="30-39">30-39</option>
+                    <option value="40-49">40-49</option>
+                    <option value="50+">50+</option>
+                </select><br><br>
+    
+            <p>Please select which courses you anticipate needing:</p>
+                <form class="courses-form" action="">
+<div class="courses-box">
+                        <div><input type="checkbox" class="checkbox" name="Appetizers" value="Appetizers"> Appetizers<br></div>
+                        <div><input type="checkbox" class="checkbox" name="Mains" value="Mains"> Mains<br></div>
+                        <div><input type="checkbox" class="checkbox" name="Desserts" value="Desserts" checked> Desserts<br><br></div>
+</div>
+                        <input class="submit" type="submit" value="Submit">
+                </form>
         </div>
-    <!--start of hamburger and overlay menu-->    
-        <div id="nav" class="overlay" style="width: 0%;">
-            <a class="closeBtn">✕</a>
-            <nav class="overlay-nav">
-                    <ul>
-                        <li><a href="about-us.html">About Us</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-            </nav>
-        </div>
-    <!--end of hamburger and overlay menu-->
-    </header>
-    <!--end of header-->
+
+    </main>
+</header-->
 <!--start of footer-->
 <footer>
     <div class="bottom-container">
@@ -75,7 +122,7 @@
     </div>
 </footer>
 <!--end of footer-->
-    
+    <script src="scripts/script.js"></script>
 </div>
 </body>
 </html>
