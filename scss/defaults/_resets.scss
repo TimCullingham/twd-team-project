@@ -1,10 +1,17 @@
 /* Resets */
 /* Box Sizing Reset */
-*,
-*:before,
-*:after {
+// *,
+// *:before,
+// *:after {
+//     box-sizing: border-box;
+// }
+html {
     box-sizing: border-box;
-}
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
 
 /* Responsive Images Reset */
 img {
@@ -15,4 +22,5 @@ img {
 /*General Resets*/
 body{
     margin: 0;
+    
 }
