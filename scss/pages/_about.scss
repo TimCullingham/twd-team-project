@@ -1,0 +1,15 @@
+.art-expercience{
+    display: block;
+    padding: 0 40px 40px 40px;
+}
+.art-expercience h2{
+    text-shadow: $shadow-banner;
+    font-size: $fontsizeH3;
+}
+
+article img{
+    float: right;
+    width: 53%;
+    margin-left: 20px;
+    max-width: 373px;
+}
