@@ -1,26 +1,25 @@
 //  Experience section 01
-.experience
-{
+.experience {
     display: block;
-    padding:0 30px;
+    padding: 0 30px;
     position: relative;
 }
-.section-heading h3{
-    display:none;
+.section-heading h3 {
+    display: none;
 } 
-.section-info 
-{
-  
-   padding: 0 30px 30px 0;
-    
+.section-info {
+    padding: 0 30px 30px 0;
     margin-bottom: 0;
     font-weight:$pFontweight;
     text-align: justify;
 }
-.section-heading h3{
+.section-heading h3 {
     font-size: 1.3em;
 }
-.par-but{
+
+//experience section button
+
+.par-but {
     display: none;
     border-radius: 25%;
     margin: auto;
@@ -28,20 +27,17 @@
     background-color: $light-background;
     transition: all .2s ease-in-out;
 }
-
 .par-but a {
     text-decoration: none;
     list-style-type: none;
     color: $dark-background;
     font-weight: 600;
 }
-
 .par-but:hover {
     background-color: $dark-background;
     transform: scale(1.1);
 }
-
-.par-but:hover a{
+.par-but:hover a {
     color: white;
 }
 
@@ -50,44 +46,42 @@
 
 // catering section 02
 
-.catering{
+.catering {
     padding: 30px 0;
     background-color: $dark-background;
    
 }
-.dark-background{
-   padding: 30px;
+.dark-background {
+    padding: 30px;
     background-color: $dark-background;
 }
-.catering-img-heading{
+.catering-img-heading {
     position: relative;
-    
 }
-.catering-heading{
+.catering-heading {
     position: absolute;
-    left:5.5em;
-    top:50%;
+    left: 5.5em;
+    top: 50%;
     transform: translate(-50% ,-50%);
     text-transform: uppercase;
     white-space: nowrap;
-    color:$fontColor;
+    color: $fontColor;
     font-size: $text-heading-image;
     text-shadow: 2px 2px rgb(31, 21, 16);
     line-height: 50px;
     background-color: rgba(31, 21, 16, 0.6);
     padding: 0 10px;
 }
-.catering-text{
-    color:$fontColor;
+.catering-text {
+    color: $fontColor;
 }
 
-//button
+// catering button styles
 
 .cater-button-container {
     width: 100%;
     display: flex;
 }
-
 .cater-button {
     border-radius: 25%;
     margin: auto;
@@ -95,7 +89,6 @@
     background-color: $yellow-background;
     transition: all .2s ease-in-out;
 }
-
 .cater-button a {
     text-decoration: none;
     list-style-type: none;
@@ -108,29 +101,30 @@
     transform: scale(1.1);
 }
 
-.cater-button:hover a{
+.cater-button:hover a {
     color: $dark-background;
 }
 
 // events section 03
-.events{
+
+.events {
     background-color: $light-background;
 }
-.light-background{
-    padding:30px;
+.light-background {
+    padding: 30px;
     background-color: $light-background;
 }
-.events img{
-    width:100%;
+.events img {
+    width: 100%;
     border: 1px solid $dark-background;
 }
-.events-img-heading{
+.events-img-heading {
     position: relative;
 }
-.events-heading{
+.events-heading {
     position: absolute;
-    left:5.5em;
-    top:50%;
+    left: 5.5em;
+    top: 50%;
     transform: translate(-50% ,-50%);
     text-transform: uppercase;
     white-space: nowrap;
@@ -141,15 +135,18 @@
     background-color: rgba(31, 21, 16, 0.6);
     padding: 0 10px;
 }
-.events-text p, .catering-text p{
-    font-weight:$pFontweight;
+.events-text p, .catering-text p {
+    font-weight: $pFontweight;
     text-align: justify;
    
 }
 
-.events-text p{
+.events-text p {
     padding: 0 30px 30px 0;
 }
+
+
+//event button styles
 
 .events-button-container {
     width: 100%;
@@ -176,7 +173,7 @@
     transform: scale(1.1);
 }
 
-.events-button:hover a{
+.events-button:hover a {
     color: $dark-background;
 }
 
@@ -216,65 +213,64 @@
 // }
 
 @media (min-width: $phoneLandscape)
-{    .experience{
+{    .experience {
     display: grid;
     grid-template-columns: auto auto;
-    padding:10px 30px;
+    padding: 10px 30px;
     }
-    .section-heading{
+    .section-heading {
         display: block;
-        margin-top:30px;
-               
+        margin-top: 30px;
     }
-    .section-heading h3{
+    .section-heading h3 {
         display: block;
         font-size: $fontsizeH3;
     }
-    .experience img{
+    .experience img {
         float: right;
-        width:100%;
+        width: 100%;
         margin-left: 20px;
     }
-    
-    .par-but{
+    .par-but {
         display: block;
     }
-    .button-chef{
+    .button-chef {
         display: none;
     }
-/* catering section*/
-    .dark-background{
+
+    /* catering section*/
+
+    .dark-background {
         display: grid;
         grid-template-columns: 400px auto;
-        grid-column-gap:30px;
+        grid-column-gap: 30px;
     }
-    .dark-background h3, .light-background h3{
+    .dark-background h3, .light-background h3 {
         font-size: $fontsizeH3;
     }
     .events-text , .catering-text {
         margin: 0;
         padding: 15% 0;
     }
-    .events-text p , .catering-text p{
+    .events-text p , .catering-text p {
         margin: 0;
-       
     }
-
-    .carter-buton, .events-text button{
-        float:right;
+    .carter-buton, .events-text button {
+        float: right;
     }
 
 
     /* event section*/
 
-    .light-background{
+    .light-background {
         display: grid;
         grid-template-columns:  400px auto;
-        grid-column-gap:30px;
+        grid-column-gap: 30px;
     }
-    .events-img-heading{
+    .events-img-heading {
         float: right;
     }
+
     // /* menu gallery*/
     // .menu-gallery{
     //     display: grid;
@@ -298,23 +294,14 @@
     @media (min-width:$tabletLandscape)
 
     {
-        .experience , .dark-background, .light-background{
-             
+        .experience , .dark-background, .light-background {
             max-width: 850px;
             margin: 0 auto; 
            
         }
-     .catering, .events{
+     .catering, .events {
            padding:0;
             width:100%;
         }
-        
     }
-
-    
-    
-
-    
-    
-
 }
