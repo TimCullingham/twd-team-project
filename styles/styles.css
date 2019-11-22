@@ -320,11 +320,16 @@ footer .logo {
 
 .par-but {
   display: none;
-  border-radius: 25%;
+  border-radius: 5%;
   margin: auto;
   font-family: "Nunito", sans-serif;
-  background-color: #ddd1c5;
-  transition: all .2s ease-in-out; }
+  color: white;
+  background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+  background-size: 400%;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out; }
 
 .par-but a {
   text-decoration: none;
@@ -372,10 +377,11 @@ footer .logo {
   display: flex; }
 
 .cater-button {
-  border-radius: 25%;
+  border-radius: 5%;
   margin: auto;
   font-family: "Nunito", sans-serif;
-  background-color: #f0b74d;
+  background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+  background-size: 400%;
   transition: all .2s ease-in-out; }
 
 .cater-button a {
@@ -431,10 +437,11 @@ footer .logo {
   display: flex; }
 
 .events-button {
-  border-radius: 25%;
+  border-radius: 5%;
   margin: auto;
   font-family: "Nunito", sans-serif;
-  background-color: #2b170c;
+  background-image: linear-gradient(to right, #603813 0%, #b29f94 51%, #603813 100%);
+  background-size: 400%;
   transition: all .2s ease-in-out; }
 
 .events-button a {
