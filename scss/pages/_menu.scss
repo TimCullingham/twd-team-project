@@ -1,7 +1,7 @@
 .menu{
-      max-width: 1020px;
+      max-width: 1000px;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
       grid-gap: 30px;
       padding: 0, 30px;
       margin:0 auto;
@@ -27,7 +27,7 @@
       
       .meal-time {
             position: absolute;
-            z-index:1;
+            z-index:2;
             height: 100%;
             width:100%;
             left:50%;
@@ -38,7 +38,30 @@
             color:$fontColor;
             text-align: center;
             margin:  auto;
-            
+           
+
+                        // .box{
+                        //       position: absolute;
+                        //       border:5px solid white;
+                        //       z-index: 3;
+                        //       height: 90%;
+                        //       width:90%;
+                        //       left:50%;
+                        //       top:50%;
+                        //       transform: translate(-50%, -50%);
+                        // }
+           
+            h3{
+                  position: absolute;
+                  z-index: 4;
+                  left:50%;
+                  top:50%;
+                  transform: translate(-50%, -50%);
+                  font-size: 2em;
+                  font-style: italic;
+                 
+                  
+            }
       }
       .details{
             padding: 20px;   
@@ -52,26 +75,5 @@
             padding:10px 0;
       }
 
-//       @media (min-width:$phoneLandscape){
-  
-//       .menu{
-//             display: grid;
-//             grid-template-columns: auto auto;
-           
-//             grid-gap:30px;
-           
-        
-//             &.menu-detail{
-//                   display: block;
-//                   overflow: hidden;
-//                   &.meal-pic img{
-//                         width: 100%;
-//                         object-fit: cover;
-//                   }
-//             }
-//       }
 
-
-
-//  }
       
