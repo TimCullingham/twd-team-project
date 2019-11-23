@@ -600,6 +600,7 @@ footer .logo {
   height: 100%;
   object-fit: cover;
   transition: 0.5s;
+  display: block;
  /* position: absolute;
 top: 0;
 left: 0;
@@ -808,6 +809,7 @@ object-fit: cover; */ }
   height: 100%;
   object-fit: cover;
   transition: 0.5s;
+  display: block;
  /* position: absolute;
 top: 0;
 left: 0;
