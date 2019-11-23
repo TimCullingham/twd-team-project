@@ -1,28 +1,21 @@
 @charset "utf-8";
 
-
 /* resets */
 @import "defaults/resets";
 @import "defaults/type";
 @import "defaults/variables";
 @import "defaults/mixins";
 
-
-/* nav */
-
 /* index section for header banner body and footer sections  */
 @import "index-section/banner";
 @import "index-section/header";
-@import "index-section/body";
 @import "index-section/footer";
+
 /*pages */
 @import "pages/home";
 @import "pages/menu-grid";
-@import "pages/experience";
-@import "pages/catering";
 @import "pages/events";
 @import "pages/menu";
 @import "pages/menu-grid";
 @import "pages/about";
-
 @import "pages/contact-us";

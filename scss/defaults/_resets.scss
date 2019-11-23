@@ -1,26 +1,30 @@
 /* Resets */
 /* Box Sizing Reset */
-// *,
-// *:before,
-// *:after {
-//     box-sizing: border-box;
-// }
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
 html {
     box-sizing: border-box;
-  }
-  *, *:before, *:after {
+}
+
+*, 
+*:before, 
+*:after {
     box-sizing: inherit;
-  }
-  
+}
 
 /* Responsive Images Reset */
+
 img {
     max-width: 100%;
     height: auto;
 }
 
 /*General Resets*/
+
 body{
     margin: 0;
-    
 }

@@ -1,76 +1,84 @@
 
 
-//  Experience section 01
+// Experience section 
+
 .experience {
     display: block;
-    padding: 0 30px;
+    padding: 0 30px 30px;
     position: relative;
 }
+
 .section-heading h3 {
     display: none;
 } 
+
 .section-info {
-    padding: 0 30px 30px 0;
+    padding-bottom: 30px;
     margin-bottom: 0;
-    font-weight:$pFontweight;
+    font-weight: $pFontweight;
     text-align: justify;
 }
+
 .section-heading h3 {
     font-size: 1.3em;
 }
 
-//experience section button
+.experience img {
+    border: 2px solid $dark-background;
+}
 
-
-
+// Experience section button
 
 .par-but {
     display: none;
+}
+
+.par-but span {
     border-radius: 5%;
-    margin: auto;
     font-family: $regularFont;
-    // background-color: rgba(76,76,76,1);
-    color: white;
     background-image: $list1;
     background-size: 400%;
-   
-    
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    transition: all .2s ease-in-out;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
 }
+
 .par-but a {
     text-decoration: none;
     list-style-type: none;
     color: $dark-background;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
 }
-.par-but:hover {
-    background-color: $dark-background;
+
+.par-but:hover span {
     transform: scale(1.1);
 }
+
 .par-but:hover a {
     color: white;
 }
 
-
-
-
-// catering section 02
+// Catering section 
 
 .catering {
     padding: 30px 0;
     background-color: $dark-background;
-   
 }
+
 .dark-background {
     padding: 30px;
     background-color: $dark-background;
 }
+
 .catering-img-heading {
     position: relative;
 }
+
 .catering-heading {
     position: absolute;
     left: 5.5em;
@@ -85,24 +93,33 @@
     background-color: rgba(31, 21, 16, 0.6);
     padding: 0 10px;
 }
+
 .catering-text {
     color: $fontColor;
 }
 
-// catering button styles
+// Catering button styles
 
 .cater-button-container {
     width: 100%;
     display: flex;
 }
+
 .cater-button {
     border-radius: 5%;
     margin: auto;
     font-family: $regularFont;
-    background-image: $list2;
+    background-image: $list4;
     background-size: 400%;
     transition: all .2s ease-in-out;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    background-image: $list2;
 }
+
 .cater-button a {
     text-decoration: none;
     list-style-type: none;
@@ -116,25 +133,29 @@
 }
 
 .cater-button:hover a {
-    color: $dark-background;
+    color: $menu-time-background-color;
 }
 
-// events section 03
+// Events section 
 
 .events {
     background-color: $light-background;
 }
+
 .light-background {
     padding: 30px;
     background-color: $light-background;
 }
+
 .events img {
     width: 100%;
     border: 1px solid $dark-background;
 }
+
 .events-img-heading {
     position: relative;
 }
+
 .events-heading {
     position: absolute;
     left: 5.5em;
@@ -149,22 +170,20 @@
     background-color: rgba(31, 21, 16, 0.6);
     padding: 0 10px;
 }
+
 .events-text p, .catering-text p {
     font-weight: $pFontweight;
     text-align: justify;
-   
 }
 
 .events-text p {
     padding: 0 30px 30px 0;
 }
 
-
-//event button styles
+// Event button styles
 
 .events-button-container {
     width: 100%;
-    display: flex;
 }
 
 .events-button {
@@ -174,6 +193,11 @@
     background-image: $list4;
     background-size: 400%;
     transition: all .2s ease-in-out;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
 }
 
 .events-button a {
@@ -192,131 +216,84 @@
     color: $dark-background;
 }
 
-
-// // home page menu grid section04
-
-// .section-menu-gallary{
-//     padding: 10px 30px;
-// }
-// .img-grid img{
-//     width:100%;
-//     margin:10px 0;
-// }
-// .menu-gallery{
-//     display:block;
-// }
-// .yellow-background{
-//     background-color: $yellow-background;
-    
-// }
-// .yellow-background, .light-grey-background{
-//     color: black;
-//     line-height: 30px;
-//     text-align: center;
-//     padding:20% 0;
-//     margin:10px 0;
-// }
-
-// .light-grey-background{
-//     background-color: $light-grey-background;
-    
-// }
-// .menu-txt{
-//     text-align: center;
-//     color: rgb(46, 26, 14);
-//     font-size: 1.8rem;
-// }
-
 @media (min-width: $phoneLandscape)
-{    .experience {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 10px 30px;
+
+    /* Experience section */
+
+{   .experience {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px 30px;
     }
+
     .section-heading {
         display: block;
         margin-top: 30px;
     }
+
     .section-heading h3 {
         display: block;
         font-size: $fontsizeH3;
     }
+
     .experience img {
         float: right;
         width: 100%;
         margin-left: 20px;
     }
+
     .par-but {
         display: block;
     }
+
     .button-chef {
         display: none;
     }
 
-    /* catering section*/
+    /* Catering section */
 
     .dark-background {
         display: grid;
         grid-template-columns: 400px auto;
         grid-column-gap: 30px;
     }
+
     .dark-background h3, .light-background h3 {
         font-size: $fontsizeH3;
     }
-    .events-text , .catering-text {
+
+    .events-text, .catering-text {
         margin: 0;
         padding: 15% 0;
     }
-    .events-text p , .catering-text p {
+
+    .events-text p, .catering-text p {
         margin: 0;
     }
-    .carter-buton, .events-text button {
-        float: right;
-    }
 
-
-    /* event section*/
+    /* Event section */
 
     .light-background {
         display: grid;
         grid-template-columns:  400px auto;
         grid-column-gap: 30px;
     }
+
     .events-img-heading {
         float: right;
     }
 
-    // /* menu gallery*/
-    // .menu-gallery{
-    //     display: grid;
-    //     grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
-    //     grid-gap: 30px;
-        
-    // }
-    // .img-grid{
-    //     margin: 0;
-        
-    // }
-    // .img-grid img{
-    //     max-width: 100%;
-    //     height: auto;
-    //     display: block;
-    // }
-    // .yellow-background, .light-grey-background{
-    //      padding: 35% 0;
-    // }
-
-    @media (min-width:$tabletLandscape)
+    @media (min-width: $tabletLandscape)
 
     {
-        .experience , .dark-background, .light-background {
-            max-width: 850px;
-            margin: 0 auto; 
-           
+    .experience, .dark-background, .light-background {
+        max-width: 850px;
+        margin: 0 auto; 
         }
+
      .catering, .events {
-           padding:0;
-            width:100%;
+        padding: 0;
+        width: 100%;
         }
     }
 }

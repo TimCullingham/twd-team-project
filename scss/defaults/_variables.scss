@@ -1,17 +1,17 @@
-// background-colors
+// Background-colors
 $dark-background:rgb(43, 23, 12);
 $light-background:rgb(221, 209, 197);
 $yellow-background:rgb(240, 183, 77);
 $light-grey-background:rgb(187, 177, 159);
 $menu-time-background-color: rgba( black, 0.5);
 
-// banner text shadow
+// Banner text shadow
 $shadow-banner:0 0 10px rgb(207, 119, 5), 0 0 5px rgb(231, 24, 9);
 
-//box shadow in menu gallery
+// Box shadow in menu gallery
 $shadow-menu-grid-index: 0px 0px 20px 7px rgba(0,0,0,0.6);
 
-// font color
+// Font color
 $fontColor:white;
 $mealColorName: grey;
 
@@ -20,7 +20,7 @@ $pFontweight: 600;
 $fontsizeH3: 1.6em;
 
 
-//fonts
+// Fonts
 $regularFont: 'Nunito', sans-serif;
 $scriptFont: 'Oleo Script', cursive;
 
@@ -31,13 +31,11 @@ $tabletPortrait: 800px;
 $phoneLandscape: 666px;
 $phonePortrait: 414px;
 
-//background color
-
-
 // Functions
-// - Differ from mixins in that they 
-// just return plain values instead
-// of property value pairs
+// Differ from mixins in that they 
+// Just return plain values instead
+// Of property value pairs
+
 @function em($px, $bc: 16){
     @return #{$px / $bc}em;
 }
@@ -45,7 +43,7 @@ $phonePortrait: 414px;
 // Link Selector
 $link: '&:hover, &:focus, &:active';
 
-// button color
+// Button color
 
 $list1:linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
 $list2: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);

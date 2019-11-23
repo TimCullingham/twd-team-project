@@ -1,6 +1,4 @@
-// Header
 header {
-    
     background-color:rgb(17, 10, 8);
 }
 
@@ -53,8 +51,6 @@ button {
     font-size: 1rem;
     cursor: pointer;
     text-align: center;
-    transition: background 250ms ease-in-out, 
-                transform 150ms ease;
     -webkit-appearance: none;
     -moz-appearance: none;
 }
@@ -97,7 +93,6 @@ nav ul {
 nav ul li a {
     color: $light-grey-background;
     text-decoration: none;
-    
 }
 
 header .overlay {
@@ -106,7 +101,7 @@ header .overlay {
     width: 0;
     position: fixed;
     opacity: 0.99;
-    z-index: 2;
+    z-index: 100;
     left: 0;
     top: 0;
     background-color: $dark-background;

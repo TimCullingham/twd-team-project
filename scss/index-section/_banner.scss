@@ -1,23 +1,22 @@
 // Banner
 
-.banner-image{
+.banner-image {
     position: relative;
     margin:0;
     margin-bottom: 2em;
     overflow: hidden;
-
-    
 }
-.banner-image img{
+
+.banner-image img {
     max-width: 100%;
     vertical-align: middle;
     height: auto;
-
 }
- .banner-text{
+
+ .banner-text {
     position: absolute;
-    left:40px;
-    top:50%;
+    left: 40px;
+    top: 50%;
     transform: translateY(-50%);
     animation: type 3s steps(37);
     overflow: hidden;
@@ -25,11 +24,11 @@
     white-space: nowrap;
     color:white;
     font-size: 1.3em;
-    text-shadow:  $shadow-banner;/*2px 2px rgb(31, 21, 16);*/
+    text-shadow:  $shadow-banner;
     width: 100%;
 }
 
-@keyframes type{
+@keyframes type {
 
     0%{
         width: 0;
@@ -39,14 +38,16 @@
         width: 100%;
     }
 }
-@media(min-width: $phonePortrait){
-    .banner-text{
+
+@media (min-width: $phonePortrait){
+    .banner-text {
     font-size: 1.8em;
     }
 }
+
 @media (min-width: $phoneLandscape)
 {
-    .banner-text{
+    .banner-text {
         font-size: 2.5em;
     }  
 }
