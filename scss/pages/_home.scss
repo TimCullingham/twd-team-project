@@ -30,29 +30,30 @@
     margin: auto;
     font-family: $regularFont;
     // background-color: rgba(76,76,76,1);
-    color: white;
+    
     background-image: $list1;
     background-size: 400%;
-   
+    color: $dark-background;
+    font-weight: 700;
     
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
+    // moz-transition: all .4s ease-in-out;
+    // -o-transition: all .4s ease-in-out;
+    // -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
-.par-but a {
-    text-decoration: none;
-    list-style-type: none;
-    color: $dark-background;
-    font-weight: 600;
-}
+// .par-but  {
+    
+//     color: $dark-background;
+//     font-weight: 600;
+// }
 .par-but:hover {
     background-color: $dark-background;
     transform: scale(1.1);
-}
-.par-but:hover a {
     color: white;
 }
+// .par-but:hover {
+//     color: white;
+// }
 
 
 
@@ -102,22 +103,24 @@
     background-image: $list2;
     background-size: 400%;
     transition: all .2s ease-in-out;
-}
-.cater-button a {
-    text-decoration: none;
-    list-style-type: none;
     color: $dark-background;
     font-weight: 600;
 }
+// .cater-button  {
+    
+//     color: $dark-background;
+//     font-weight: 600;
+// }
 
 .cater-button:hover {
     background-color: $light-background;
     transform: scale(1.1);
-}
-
-.cater-button:hover a {
     color: $dark-background;
 }
+
+// .cater-button:hover {
+//     color: $dark-background;
+// }
 
 // events section 03
 
@@ -176,11 +179,11 @@
     transition: all .2s ease-in-out;
 }
 
-.events-button a {
-    text-decoration: none;
-    list-style-type: none;
-    color: $yellow-background;
+.events-button{
+    
+    // color: $yellow-background;
     font-weight: 600;
+    color: white;
 }
 
 .events-button:hover {
@@ -188,7 +191,7 @@
     transform: scale(1.1);
 }
 
-.events-button:hover a {
+.events-button:hover {
     color: $dark-background;
 }
 
