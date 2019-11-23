@@ -65,7 +65,16 @@ footer ul {
     padding: 5px;
     opacity: .4;
     color: $yellow-background;
-}
+  p{
+      text-align: center;
+  }
+  a:hover
+  {
+      cursor: pointer;
+      color: white;
+  }
+  }
+
 
 footer .logo {
     margin-left: 11px;

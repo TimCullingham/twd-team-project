@@ -288,6 +288,11 @@ footer ul {
   padding: 5px;
   opacity: .4;
   color: #f0b74d; }
+  .copyright p {
+    text-align: center; }
+  .copyright a:hover {
+    cursor: pointer;
+    color: white; }
 
 footer .logo {
   margin-left: 11px;
