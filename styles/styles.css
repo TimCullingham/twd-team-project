@@ -518,9 +518,6 @@ footer .logo {
 
 .container {
   position: relative;
-  /* width: 1200px;
-  height: 600px;
-  margin: 80px auto 0; */
   max-width: 1020px;
   margin: 0 auto;
   padding: 30px;
@@ -531,8 +528,6 @@ footer .logo {
 .container .box {
   position: relative;
   width: 100%;
-  /* width: 400px;
-  height: 300px; */
   background-color: black;
   margin: 15px;
   box-sizing: border-box;
@@ -587,13 +582,7 @@ footer .logo {
   height: 100%;
   object-fit: cover;
   transition: 0.5s;
-  display: block;
- /* position: absolute;
-top: 0;
-left: 0;
-height: 100%;
-width: 100%;
-object-fit: cover; */ }
+  display: block; }
 
 .container .box:hover .img-box img {
   opacity: .2;
@@ -633,10 +622,6 @@ object-fit: cover; */ }
   transform: translateY(0px);
   transition-delay: 0.2s; }
 
-/* .container .box .content p{
-    opacity: 1;
-    visibility: visible;
-} */
 .location {
   margin-right: 0; }
 
@@ -726,9 +711,6 @@ object-fit: cover; */ }
 
 .container {
   position: relative;
-  /* width: 1200px;
-  height: 600px;
-  margin: 80px auto 0; */
   max-width: 1020px;
   margin: 0 auto;
   padding: 30px;
@@ -739,8 +721,6 @@ object-fit: cover; */ }
 .container .box {
   position: relative;
   width: 100%;
-  /* width: 400px;
-  height: 300px; */
   background-color: black;
   margin: 15px;
   box-sizing: border-box;
@@ -795,13 +775,7 @@ object-fit: cover; */ }
   height: 100%;
   object-fit: cover;
   transition: 0.5s;
-  display: block;
- /* position: absolute;
-top: 0;
-left: 0;
-height: 100%;
-width: 100%;
-object-fit: cover; */ }
+  display: block; }
 
 .container .box:hover .img-box img {
   opacity: .2;
@@ -841,10 +815,6 @@ object-fit: cover; */ }
   transform: translateY(0px);
   transition-delay: 0.2s; }
 
-/* .container .box .content p{
-    opacity: 1;
-    visibility: visible;
-} */
 .art-expercience {
   display: block;
   padding: 0 40px 40px 40px; }

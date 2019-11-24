@@ -29,31 +29,21 @@
     border-radius: 5%;
     margin: auto;
     font-family: $regularFont;
-    // background-color: rgba(76,76,76,1);
+   
     
     background-image: $list1;
     background-size: 400%;
     color: $dark-background;
     font-weight: 700;
-    
-    // moz-transition: all .4s ease-in-out;
-    // -o-transition: all .4s ease-in-out;
-    // -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
-// .par-but  {
-    
-//     color: $dark-background;
-//     font-weight: 600;
-// }
+
 .par-but:hover {
     background-color: $dark-background;
     transform: scale(1.1);
     color: white;
 }
-// .par-but:hover {
-//     color: white;
-// }
+
 
 
 
@@ -106,11 +96,7 @@
     color: $dark-background;
     font-weight: 600;
 }
-// .cater-button  {
-    
-//     color: $dark-background;
-//     font-weight: 600;
-// }
+
 
 .cater-button:hover {
     background-color: $light-background;
@@ -118,9 +104,6 @@
     color: $dark-background;
 }
 
-// .cater-button:hover {
-//     color: $dark-background;
-// }
 
 // events section 03
 
@@ -196,39 +179,7 @@
 }
 
 
-// // home page menu grid section04
 
-// .section-menu-gallary{
-//     padding: 10px 30px;
-// }
-// .img-grid img{
-//     width:100%;
-//     margin:10px 0;
-// }
-// .menu-gallery{
-//     display:block;
-// }
-// .yellow-background{
-//     background-color: $yellow-background;
-    
-// }
-// .yellow-background, .light-grey-background{
-//     color: black;
-//     line-height: 30px;
-//     text-align: center;
-//     padding:20% 0;
-//     margin:10px 0;
-// }
-
-// .light-grey-background{
-//     background-color: $light-grey-background;
-    
-// }
-// .menu-txt{
-//     text-align: center;
-//     color: rgb(46, 26, 14);
-//     font-size: 1.8rem;
-// }
 
 @media (min-width: $phoneLandscape)
 {    .experience {
@@ -289,26 +240,7 @@
         float: right;
     }
 
-    // /* menu gallery*/
-    // .menu-gallery{
-    //     display: grid;
-    //     grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
-    //     grid-gap: 30px;
-        
-    // }
-    // .img-grid{
-    //     margin: 0;
-        
-    // }
-    // .img-grid img{
-    //     max-width: 100%;
-    //     height: auto;
-    //     display: block;
-    // }
-    // .yellow-background, .light-grey-background{
-    //      padding: 35% 0;
-    // }
-
+    
     @media (min-width:$tabletLandscape)
 
     {
