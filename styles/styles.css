@@ -25,7 +25,7 @@ p {
   font-family: 'Nunito', sans-serif;
   font-size: 1.1em;
   text-align: justify;
-  line-height: 2em; }
+  line-height: 1.5em; }
 
 h3 {
   font-size: 1.3em; }
@@ -644,7 +644,7 @@ footer .logo {
 
 .contact-text P {
   padding-bottom: 1.2em;
-  line-height: 2em; }
+  line-height: 1.5em; }
 
 .event-image {
   width: 100%; }
@@ -850,6 +850,10 @@ article img {
   font-size: 1.5em;
   width: 100%;
   margin-top: 20px; }
+
+.contact-heading {
+  text-align: center;
+  padding-bottom: 1em; }
 
 .image-banner img {
   position: relative;
