@@ -24,7 +24,8 @@ h1, h2, h3, h4, h5 {
 p {
   font-family: 'Nunito', sans-serif;
   font-size: 1.1em;
-  text-align: justify; }
+  text-align: justify;
+  line-height: 2em; }
 
 h3 {
   font-size: 1.3em; }
@@ -52,7 +53,7 @@ h3 {
   text-transform: uppercase;
   white-space: nowrap;
   color: white;
-  font-size: 1.3em;
+  font-size: 1.1em;
   text-shadow: 0 0 10px #cf7705, 0 0 5px #e71809;
   /*2px 2px rgb(31, 21, 16);*/
   width: 100%; }
@@ -64,7 +65,7 @@ h3 {
     width: 100%; } }
 @media (min-width: 414px) {
   .banner-text {
-    font-size: 1.8em; } }
+    font-size: 1.5em; } }
 @media (min-width: 666px) {
   .banner-text {
     font-size: 2.5em; } }
@@ -622,6 +623,11 @@ footer .logo {
   transform: translateY(0px);
   transition-delay: 0.2s; }
 
+.event-section_01 {
+  width: 80%;
+  margin: 0 auto;
+  display: block; }
+
 .location {
   margin-right: 0; }
 
@@ -635,6 +641,10 @@ footer .logo {
 .courses-box {
   display: flex;
   justify-content: space-around; }
+
+.contact-text P {
+  padding-bottom: 1.2em;
+  line-height: 2em; }
 
 .event-image {
   width: 100%; }

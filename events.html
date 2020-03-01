@@ -54,48 +54,61 @@
     <!--start of main-->
     <main>
 
-        <div class="image-banner">
-            <h1 class="image-text">Events</h1>
-            <img class="event-image" src="images/events.jpg" alt="Women standing near table">      
-        </div>
-
-        <div class="contact-text">
-            <p>Thinking about booking an event?  Moksha caters to events of all sizes, from intimate anniversaries to lavishly packed birthdays.  Anything you have in mind, we got you covered!</p>
-            <p>If you wish to book an event, please fill in the forms below and we will contact you for additional details and confirmation:</p>
-        </div>
-        
-        <div class="form">
-            <p>Date of event:</p><br><input class="form-item"type="date" name="bday"><br>
-            <form action="">
-            <p>Please select the location you are interested in booking at:</p>
-
-            <div class="location-box">
-                <div><input type="radio" class="location" name="location" value="Location"> Commercial</div>
-                <div><input type="radio" class="location" name="location" value="Location"> Cambie</div>
-                <div><input type="radio" class="location" name="location" value="Location"> Downtown</div><br><br>
-            </div>  
-        
-            <p>Please slect the amount of guest expected to attend:</p>
-            <select class="number">
-                <option value="1-9">1-9</option>
-                <option value="10-19">10-19</option>
-                <option value="20-29">20-29</option>
-                <option value="30-39">30-39</option>
-                <option value="40-49">40-49</option>
-                <option value="50+">50+</option>
-            </select><br><br>
-        
-            <p>Please select which courses you anticipate needing:</p>
-            <form class="courses-form" action="">
-            <div class="courses-box">
-                <div><input type="checkbox" class="checkbox" name="Appetizers" value="Appetizers"> Appetizers<br></div>
-                <div><input type="checkbox" class="checkbox" name="Mains" value="Mains"> Mains<br></div>
-                <div><input type="checkbox" class="checkbox" name="Desserts" value="Desserts" checked> Desserts<br><br></div>
+        <section class="banner-info">
+            <div class="banner-image">
+               
+                <picture>
+                    <source media="(min-width: 1400px)" srcset="images/events/event_1900.jpg">
+                    
+                    <source media="(min-width: 1200px)" srcset="images/events/event_1400.jpg">
+                    <source media="(min-width: 760px)" srcset="images/events/event_1200.jpg">
+                    <source media="(min-width: 480px)" srcset="images/events/event_768.jpg">
+                    <img src="images/events/event_460.jpg" alt="Vegetables">
+                </picture>
+                <h2 class="banner-text">
+                 My Priority...
+                </h2>
             </div>
-            <input class="submit" type="submit" value="Submit">
-            </form>
-        </div>
+        </section>
+        <section class="event-section_01">
+            <div class="contact-text">
+                <p>Thinking about booking an event?  Moksha caters to events of all sizes, from intimate anniversaries to lavishly packed birthdays.  Anything you have in mind, we got you covered!</p>
+                <p>If you wish to book an event, please fill in the forms below and we will contact you for additional details and confirmation:</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p> 
+            </div>
+        
+            <div class="form">
+                <p>Date of event:</p><br><input class="form-item"type="date" name="bday"><br>
+                <form action="">
+                <p>Please select the location you are interested in booking at:</p>
 
+                <div class="location-box">
+                    <div><input type="radio" class="location" name="location" value="Location"> Commercial</div>
+                    <div><input type="radio" class="location" name="location" value="Location"> Cambie</div>
+                    <div><input type="radio" class="location" name="location" value="Location"> Downtown</div><br><br>
+                </div>  
+            
+                <p>Please slect the amount of guest expected to attend:</p>
+                <select class="number">
+                    <option value="1-9">1-9</option>
+                    <option value="10-19">10-19</option>
+                    <option value="20-29">20-29</option>
+                    <option value="30-39">30-39</option>
+                    <option value="40-49">40-49</option>
+                    <option value="50+">50+</option>
+                </select><br><br>
+            
+                <p>Please select which courses you anticipate needing:</p>
+                <form class="courses-form" action="">
+                <div class="courses-box">
+                    <div><input type="checkbox" class="checkbox" name="Appetizers" value="Appetizers"> Appetizers<br></div>
+                    <div><input type="checkbox" class="checkbox" name="Mains" value="Mains"> Mains<br></div>
+                    <div><input type="checkbox" class="checkbox" name="Desserts" value="Desserts" checked> Desserts<br><br></div>
+                </div>
+                <input class="submit" type="submit" value="Submit">
+                </form>
+            </div>
+    </section>
     </main>
     <!--end of main-->
 

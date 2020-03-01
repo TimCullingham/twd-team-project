@@ -1,3 +1,11 @@
+.event-section_01{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
 .location {
     margin-right: 0;
 }
@@ -14,8 +22,17 @@
 .courses-box {
     display: flex;
     justify-content: space-around;
+  
 }
 
+.contact-text
+{
+    P{
+        padding-bottom: 1.2em;
+        line-height: 2em;
+       }
+
+}
 .event-image {
     width: 100%;
 }
@@ -24,3 +41,4 @@
 .image-text {
     font-family: $scriptFont;
 }
+

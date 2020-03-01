@@ -53,10 +53,17 @@
 
     <!--start of main-->
     <main>
-        <div class="image-banner">
-            <h1 class="image-text">Contact Us</h1>
-            <img src="images/contact-us.jpg" alt="Woman at counter with computer"> 
-        </div>
+        <picture>
+            <source media="(min-width: 1400px)" srcset="images/events/event_1900.jpg">
+            
+            <source media="(min-width: 1200px)" srcset="images/events/event_1400.jpg">
+            <source media="(min-width: 760px)" srcset="images/events/event_1200.jpg">
+            <source media="(min-width: 480px)" srcset="images/events/event_768.jpg">
+            <img src="images/events/event_460.jpg" alt="Vegetables">
+        </picture>
+        <h2 class="banner-text">
+         Contact Me...
+        </h2>
         
         <div class="contact-text">
             <p>If you ever want to get in touch with us or give us feedback, please fill out the form below:</p>
