@@ -1,5 +1,5 @@
-# Technical Web Design Group Project
-This is a repository for a group project for BCIT's Technical Web Design course for a group project involving buliding a business brochure.
+# Moksha Indian Cuisine
+This is a repository for a group project for BCIT's Technical Web Design course involving buliding a business brochure.
 
 View the <a href="http://tcullingham.bcitwebdeveloper.ca/tim_cullingham-sonam_jaiswal-business-brochure-project/index.html">live site</a>.
 
